@@ -8,7 +8,15 @@
 </head>
 
 <body>
+  <label for="series">Choose a Series:</label>
+
+  <select name="series" id="seriesSelect">
+    <option value="default">--Please choose an option--</option>
+    <option value="Energon">Energon</option>
+    <option value="Cybertron">Cybertron</option>
+  </select>
   <button id="queryButton" class="queryButton">Search for Transformers</button>
+  <ul id="transformersList"></ul>
   <script type="text/javascript" src="./src/js/fetchJsonData.js"></script>
 </body>
 

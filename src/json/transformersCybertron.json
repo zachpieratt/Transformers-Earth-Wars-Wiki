@@ -1,0 +1,12 @@
+{
+    "toyData": [
+        {
+            "name": "Jetfire",
+            "globalId": 45,
+            "yearReleased": 2005,
+            "alliance": "Autobot",
+            "series": "Cybertron",
+            "subgroup": "Burger King Kid's Meal"
+        }
+    ]
+}

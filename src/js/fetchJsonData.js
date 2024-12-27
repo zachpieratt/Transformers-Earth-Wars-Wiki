@@ -1,6 +1,19 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-  let jsonData = "./src/json/transformersEnergon.json";
+  const seriesSelect = document.getElementById("seriesSelect");
+  let series = '';
+  let jsonData = '';
+
+  seriesSelect.addEventListener('change', function () {
+    series = seriesSelect.value;
+    if (series == 'Cybertron') {
+      jsonData = './src/json/transformersCybertron.json'
+    } else if (series == 'Energon') {
+      jsonData = './src/json/transformersEnergon.json'
+    } else {
+      console.log('No Data Available for this series')
+    }
+  })
 
   const fetchJSONData = () => {
     fetch(jsonData)
@@ -11,11 +24,27 @@ document.addEventListener("DOMContentLoaded", function () {
         }
         return res.json();
       })
-      .then((data) =>
-        console.log(data))
+      .then((data) => {
+        let output;
+        data.toyData.forEach(function (item) {
+          output += `
+          <ul>
+            <li>Name: ${item.name}</li>
+            <ul>
+              <li>Series: ${item.series}</li>
+              <li>Year Released: ${item.yearReleased}</li>
+              <li>Subgroup: ${item.subgroup}</li>
+            </ul>
+          </ul>
+        `
+        })
+        document.getElementById("transformersList").innerHTML = output
+
+      })
       .catch((error) =>
         console.error("Unable to fetch data:", error));
   }
-  const searchButton = document.getElementById("queryButton").addEventListener("click", fetchJSONData);
+
+  document.getElementById("queryButton").addEventListener("click", fetchJSONData);
 
 });

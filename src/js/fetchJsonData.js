@@ -2,17 +2,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const seriesSelect = document.getElementById("seriesSelect");
   let series = '';
-  let jsonData = '';
+  let jsonData;
 
   seriesSelect.addEventListener('change', function () {
     series = seriesSelect.value;
-    if (series == 'Cybertron') {
-      jsonData = './src/json/transformersCybertron.json'
-    } else if (series == 'Energon') {
-      jsonData = './src/json/transformersEnergon.json'
-    } else {
-      console.log('No Data Available for this series')
-    }
+    jsonData = `./src/json/transformers${series}.json`
   })
 
   const fetchJSONData = () => {

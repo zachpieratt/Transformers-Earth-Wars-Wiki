@@ -1,0 +1,29 @@
+body {
+    background: url(/earthWarsBg.jpg) no-repeat;
+}
+
+#pageHeader {
+    text-align: center;
+    background-color: black;
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#pageNavigation {
+    border: 1px solid black;
+    text-align: center;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#pageNavigation a {
+    color: white;
+}
+
+#pageNavigation a.active {
+    background-color: green;
+    pointer-events: none;
+}

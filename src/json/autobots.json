@@ -1,0 +1,25 @@
+{
+    "data": [
+        {
+            "name": "Broadside",
+            "class": "Triple Changer",
+            "introduced": "9/30/2021",
+            "bio": "Broadside is a powerful and highly proficient combatant, in any of his three modes, but boy does he like to complain! If it's not some internal gyroscopic malfunction in aircraft carrier mode that makes him seasick, it's vertigo in jet mode... and so on. The litany of grumbles and gripes never stops, which can be wearing on any Autobot assigned to work with him. But with mass-shifting abilities, a pulse-cannon and a Vibro-axe, Broadside more than compensates for the strain of partnering up with him. He's basically a one-'bot army.",
+            "abilities": [
+                {
+                    "name": "Assault Drones",
+                    "description": "Deploy 5 untargetable Assault Drones that attack for DPS each. When you deploy more drones or you are destroyed, your Assault Drones explode, doing damage each. These values increase with your Damage."
+                },
+                {
+                    "name": "Repair Drones",
+                    "description": "Deploy 5 untargetable Repair Drones to heal for HPS each. When you deploy more drones or you are destroyed, your Repair Drones explode, doing healing each. These values increase with your Damage."
+                }
+            ],
+            "passiveAbility": "Grenade Toss",
+            "abilityCost": 4,
+            "increasePerCast": 2,
+            "maxRarity": 4,
+            "factionOpposite": "Apeface"
+        }
+    ]
+}

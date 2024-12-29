@@ -17,16 +17,23 @@
         <a href="./html/units.html" class="active">Units</a>
         <a href="#">C.O.M.B.A.T Bots</a>
         <a href="#">Power Cores</a>
-        <a href="#">Defenses</a>
+        <a href="./defenses.html">Defenses</a>
     </nav>
     <div class="content">
-        <label for="factions">Faction:</label>
-        <select name="factions" id="factions">
-            <option value="default" selected="selected">-</option>
-            <option value="Autobots">Autobots</option>
-            <option value="Decepticons">Decepticons</option>
-        </select>
+        <div id="factionSelection">
+            <label for="factions">Faction:</label>
+            <select name="factions" id="factions">
+                <option value="default" selected="selected" disabled>-</option>
+                <option value="Autobots">Autobots</option>
+                <option value="Decepticons">Decepticons</option>
+            </select>
+        </div>
     </div>
+    <br><br>
+    <div id="unitGrid">
+        <div class="grid-container" id="gridContainer"></div>
+    </div>
+    <script src="/src/js/fetchUnitDetails.js"></script>
 </body>
 
 </html>

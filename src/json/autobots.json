@@ -1,5 +1,5 @@
 {
-    "data": [
+    "units": [
         {
             "name": "Broadside",
             "class": "Triple Changer",
@@ -20,6 +20,23 @@
             "increasePerCast": 2,
             "maxRarity": 4,
             "factionOpposite": "Apeface"
+        },
+        {
+            "name": "Star Saber",
+            "class": "Special",
+            "introduced": "4/4/2016",
+            "bio": "Famed as one of the greatest cyber-swordsmen in the known universe, Star Saber fought his way up through the ranks, from footsoldier to commander, driven by a flaming passion for justice and peace, and a commitment to the Autobot cause to rival that of Optimus Prime. His idealism, courage, and strength are legendary, but sometimes his zeal can override his otherwise calm, collected nature and get him into trouble.",
+            "abilities": [
+                {
+                    "name": "Quick Strike",
+                    "description": "Rush in, spreading electrical fire in a large radius. Targets are disabled for 6 seconds and take damage."
+                }
+            ],
+            "passiveAbility": "N/A",
+            "abilityCost": 10,
+            "increasePerCast": 3,
+            "maxRarity": 5,
+            "factionOpposite": "Deathsaurus"
         }
     ]
 }

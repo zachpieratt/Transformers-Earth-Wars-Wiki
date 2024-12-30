@@ -570,6 +570,210 @@
             "art": "/src/assets/autobots/sideswipe1.png"
         },
         {
+            "name": "Swoop",
+            "class": "Aerial",
+            "bio": "Swooping from the sky to rain ballistic missiles down on hapless Decepticons is Swoop's forte, and he goes about these aerial dive bombing raids with an unwholesome glee, delighting in the fear and confusion he sows on the battlefield. But appearances can be deceptive and while Swoop in Dinobot form assumes the predatory persona of the creature he was modelled on, as a bot he tends to be affable and good-natured.",
+            "abilities": [
+                {
+                    "name": "Fire Mission",
+                    "description": "Set out to damage targets in an area, striking them up to 18 times."
+                }
+            ],
+            "passiveAbility": "Shoots a fire beam from medium range (cannot reach targets behind a wall)",
+            "abilityCost": 5,
+            "increasePerCast": 5,
+            "maxRarity": 5,
+            "rival": "Scourge",
+            "art": "/src/assets/autobots/swoop1.png"
+        },
+        {
+            "name": "Ultra Magnus",
+            "class": "Special",
+            "bio": "Soldier, law enforcer, staunch defender of Autobot principles, Ultra Magnus is all these things and more. But while he is comfortable following orders, he isn't as happy giving them. The mantle of leadership doesn't sit easily on his shoulders, though with his indomitable courage and gift for battlefield improvisation under fire, he'd be the perfect choice. In many ways, he simply leads by example.",
+            "abilities": [
+                {
+                    "name": "Ultra Barrage",
+                    "description": "Fire 21 rockets scattered in a line across the target. Followed by 3 big guided missiles which hit for high damage."
+                }
+            ],
+            "passiveAbility": "N/A",
+            "abilityCost": 7,
+            "increasePerCast": 3,
+            "maxRarity": 5,
+            "rival": "Galvatron",
+            "art": "/src/assets/autobots/ultraMagnus1.png"
+        },
+        {
+            "name": "Hot Rod",
+            "class": "Special",
+            "bio": "Hot Rod is the original 'turbo-revving young punk', with a carefree daredevil attitude that leaves his fellow Autobots a jittery mess. Blame it on his 'youth' if you will, but Hot Rod is always looking for that headlong buzz, that extra x-treme shot of techno-adrenaline. Live fast, die… well, later, is his credo, and Hot Rod certainly believes in living life to the fullest. The closer to the edge it is, the more he likes it.",
+            "abilities": [
+                {
+                    "name": "Blessing of the Matrix",
+                    "description": "Makes a friendly bot invulnerable to damage and stun effects."
+                }
+            ],
+            "passiveAbility": "Throws an incendiary grenade over walls",
+            "abilityCost": 6,
+            "increasePerCast": 2,
+            "maxRarity": 5,
+            "rival": "Nemesis Prime",
+            "art": "/src/assets/autobots/hotRod1.png"
+        },
+        {
+            "name": "Hot Spot",
+            "class": "Warrior",
+            "bio": "'Never ask anyone to do what you won't do yourself' are practically the words Hot Spot lives by. He leads by example, always striving to be the best he can be, but never puts himself above those in his command. You'll find him at the forefront of any battle charge, howling his defiance, cannons blazing, and even when the victory is won, he never truly stands down, always ready to serve… and protect.",
+            "abilities": [
+                {
+                    "name": "Reflective Shield",
+                    "description": "Put on a protective shield that reflects 50% (60% for 5 star bot) damage back to the attackers for several seconds, then charge the target. Attracts defenses!"
+                }
+            ],
+            "passiveAbility": "Shoots from a distance",
+            "abilityCost": 4,
+            "increasePerCast": 2,
+            "maxRarity": 5,
+            "rival": "Tantrum",
+            "art": "/src/assets/autobots/hotSpot1.png"
+        },
+        {
+            "name": "Seaspray",
+            "class": "Gunner",
+            "bio": "In many ways, Seaspray found his spiritual home on planet Earth, or rather, its oceans. With no comparable medium on Cybertron, he broke new ground - relishing the newfound freedom of movement and sheer expanse of his territory. Though well equipped for naval combat, Seaspray's hovercraft mode is vulnerable to enemy fire, and one direct hit would send him to the bottom of the ocean - forever.",
+            "abilities": [
+                {
+                    "name": "Whirlwind",
+                    "description": "Summon a devastating tornado that moves to target location dealing damage every second. Stuns and interrupts defenses."
+                }
+            ],
+            "passiveAbility": "N/A",
+            "abilityCost": 4,
+            "increasePerCast": 3,
+            "maxRarity": 5,
+            "rival": "Octopunch",
+            "art": "/src/assets/autobots/seaspray1.png"
+        },
+        {
+            "name": "Gnaw",
+            "class": "Special",
+            "bio": "While normally a feral Sharkticon is no one's ally, Gnaw is the exception - loyal to whomever last fed him. As insatiable in appetite as he is savage in combat, Gnaw is one of those walking engines of destruction you just wind up and let go. Trouble is, if the opposition has some energon snacks handy, Gnaw will think nothing of biting the (original) hand that feeds.",
+            "abilities": [
+                {
+                    "name": "Chomp Chomp Chomp",
+                    "description": "Unleash four vicious Sharkticons. Warning: current Sharkticons will rebel and explode!"
+                }
+            ],
+            "passiveAbility": "Spits Acid",
+            "abilityCost": 4,
+            "increasePerCast": 3,
+            "maxRarity": 5,
+            "rival": "Gnaw",
+            "art": "/src/assets/autobots/gnaw1.png"
+        },
+        {
+            "name": "Pipes",
+            "class": "Warrior",
+            "bio": "Tough, brave and very strong; Pipes notable talent is to emit clouds of toxic, corrosive fumes from his exhaust pipes. Whilst it can melt through 2 inch thick steel plating, it's not something you really want to shout about! Still, he's a good 'bot to have on your team if you need a solid, sturdy and dependable warrior, just… don't get downwind of him.",
+            "abilities": [
+                {
+                    "name": "Corrosive Charge",
+                    "description": "Put a shield that blocks 80% damage for several seconds and rush into combat damaging walls and covering buildings in acid, dealing damage and causing 20% speed reduction. Attracts defenses!"
+                }
+            ],
+            "passiveAbility": "Acid Thrower",
+            "abilityCost": 3,
+            "increasePerCast": 1,
+            "maxRarity": 4,
+            "rival": "Headstrong",
+            "art": "/src/assets/autobots/pipes1.png"
+        },
+        {
+            "name": "Hound",
+            "class": "Gunner",
+            "bio": "Intrepid, fearless, unwavering, Hound is all these things and more - perfect qualities for an advance scout. But the truth is Hound just loves to explore. If it's new, uncharted or off-the-beaten-track, Hound's your 'bot. Using his topographical skills and 3D simulation circuitry, he'll have plotted every twist and turn of the terrain in nano-seconds, and his jeep mode is the perfect all-terrain, off-road form.",
+            "abilities": [
+                {
+                    "name": "Release the Hounds!",
+                    "description": "Release 5 holo bombs that deal 69 damage to each target. Deals double damage to resource buildings!"
+                }
+            ],
+            "passiveAbility": "N/A",
+            "abilityCost": 6,
+            "increasePerCast": 2,
+            "maxRarity": 4,
+            "rival": "Drag Strip",
+            "art": "/src/assets/autobots/hound1.png"
+        },
+        {
+            "name": "Perceptor",
+            "class": "Special",
+            "bio": "Extremely intelligent, with a data-storage capacity second to none, Perceptor's thirst for knowledge is unquenchable, and it's pure science - not battle - that lights his circuits. Specializing in metallurgy, molecular chemistry and electrical engineering, Perceptor is the go-to 'bot when it comes to adapting to Earth combat. Although good-natured and affable, Perceptor doesn't really play well with others.",
+            "abilities": [
+                {
+                    "name": "Defense Hack",
+                    "description": "Hack a defence making it attack other defences with double attack speed but 75% damage for 5.5 seconds."
+                }
+            ],
+            "passiveAbility": "For every star level, Perceptor has a passive effect that hacks any outpost bot once per battle for 5.5 secs.",
+            "abilityCost": 4,
+            "increasePerCast": 3,
+            "maxRarity": 5,
+            "rival": "Bombshell",
+            "art": "/src/assets/autobots/perceptor1.png"
+        },
+        {
+            "name": "Smokescreen",
+            "class": "Gunner",
+            "bio": "Everything Smokescreen does is designed to mislead. Nothing is what it seems, and every surface action has a lurking ulterior motive. Misinformation is the weapon he wields to wrong-foot and lead the enemy astray. He even uses his affable nature to root out the deepest concerns of his fellow Autobots. And in car mode, his tailpipe emits a screen of thick black smoke to mask his maneuvers. A true smokescreen.",
+            "abilities": [
+                {
+                    "name": "Execute!",
+                    "description": "Instantly destroy a building below 25/25/30% health or snipe an enemy bot dealing large damage. Cannot execute the HQ."
+                }
+            ],
+            "passiveAbility": "N/A",
+            "abilityCost": 3,
+            "increasePerCast": 0,
+            "maxRarity": 5,
+            "rival": "Brake-Neck",
+            "art": "/src/assets/autobots/smokescreen1.png"
+        },
+        {
+            "name": "First Aid",
+            "class": "Medic",
+            "bio": "Highly empathic, First Aid really feels for those he treats, and so works tirelessly to repair the seemingly endless damage caused by war. That laudable character trait makes First Aid slightly reticent in battle - as he hesitates to inflict that kind of pain on others. But he knows that in the end if the Autobots don't fight - and win - the hurting will never stop for anyone, and so he struggles on.",
+            "abilities": [
+                {
+                    "name": "Deploy Medibots",
+                    "description": "Deploy two Medibots, each with an ability to shield friendly bots blocking 40/45% of damage."
+                }
+            ],
+            "passiveAbility": "N/A",
+            "abilityCost": 4,
+            "increasePerCast": 2,
+            "maxRarity": 5,
+            "rival": "Reflector",
+            "art": "/src/assets/autobots/firstAid1.png"
+        },
+        {
+            "name": "Optimus Primal",
+            "class": "Special",
+            "bio": "Though young and untested, Optimus Primal soon rose to the challenge of leadership. More down-to-Cybertron than his legendary namesake, and prone to stuffy speeches, Primal is nevertheless committed to the Maximal codes of honor and duty and is brave and selfless in battle. But he is not above finding unorthodox solutions to problems - in his own words, 'sometimes, crazy works'",
+            "abilities": [
+                {
+                    "name": "Battle Orders",
+                    "description": "Target their defenses! Friendly bots are given a health shield and prioritize all defenses for a time."
+                }
+            ],
+            "passiveAbility": "Jump in and cause damage, Shoot foes from a distance",
+            "abilityCost": 6,
+            "increasePerCast": 2,
+            "maxRarity": 5,
+            "rival": "Beast Wars Megatron",
+            "art": "/src/assets/autobots/optimusPrimal1.png"
+        },
+        {
             "name": "",
             "class": "",
             "bio": "",

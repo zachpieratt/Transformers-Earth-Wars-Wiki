@@ -1,5 +1,21 @@
 {
     "units": [
-        {}
+        {
+            "name": "Megatron",
+            "class": "Special",
+            "bio": "In his own way, Megatron is as much an idealist as his Autobot counterpart Optimus Prime, but Megatron's zeal sprang from a committed belief that beings such as they were made to conquer and rule, and that any hint of compassion or mercy was an insult to their Primus-given power. On Cybertron, he tapped into the frustration of those like him and enflamed their revolutionary leanings. The Megatron way was and is to rule through intimidation and fear.",
+            "abilities": [
+                {
+                    "name": "Inspiring Charge",
+                    "description": "Rally Decepticons to engage the target. Then charge in damaging walls along the way."
+                }
+            ],
+            "passiveAbility": "Every 5 seconds, shoots at enemies from a distance (cannot reach target over walls).",
+            "abilityCost": 5,
+            "increasePerCast": 2,
+            "maxRarity": 5,
+            "rival": "Optimus Prime",
+            "art": "/src/assets/decepticons/megatron1.png"
+        }
     ]
 }

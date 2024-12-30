@@ -1,5 +1,11 @@
+@font-face {
+    font-family: "transformers";
+    src: url(/src/assets/fonts/Transformers\ Movie.ttf);
+}
+
 body {
     background: url(/defenses.jpeg) no-repeat;
+    background-attachment: fixed;
     background-size: cover;
 }
 
@@ -9,6 +15,7 @@ body {
     color: white;
     text-decoration: underline;
     cursor: pointer;
+    font-family: transformers;
 }
 
 #pageNavigation {
@@ -18,6 +25,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: transformers;
 }
 
 #pageNavigation a {

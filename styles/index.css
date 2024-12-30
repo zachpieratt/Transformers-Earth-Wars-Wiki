@@ -1,5 +1,33 @@
+@font-face {
+    font-family: "transformers";
+    src: url(/src/assets/fonts/Transformers\ Movie.ttf);
+}
+
 body {
-    background: url(/earthWarsBg.jpg) no-repeat;
+    background: url(/earthWarsMain.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.nav {
+    border: 1px solid #ccc;
+    border-width: 1px 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: black;
+}
+
+.nav li {
+    display: inline;
+    /* « More magic. */
+}
+
+.nav a {
+    display: inline-block;
+    /* « Last bit of magic. */
+    padding: 10px;
 }
 
 #pageHeader {
@@ -8,15 +36,11 @@ body {
     color: white;
     text-decoration: underline;
     cursor: pointer;
+    font-family: transformers;
 }
 
 #pageNavigation {
-    border: 1px solid black;
-    text-align: center;
-    background-color: black;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    color: white;
 }
 
 #pageNavigation a {

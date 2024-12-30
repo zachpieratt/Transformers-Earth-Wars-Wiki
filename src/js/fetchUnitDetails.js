@@ -5,9 +5,11 @@ document.addEventListener("DOMContentLoaded", function () {
         const selectedFaction = factionsDropdown.value;
         let jsonFile;
 
-        if (selectedFaction == 'Autobots') {
+        document.getElementById("gridContainer").classList.add("show");
+
+        if (selectedFaction === 'Autobots') {
             jsonFile = "/src/json/autobots.json";
-        } else if (selectedFaction == 'Decepticons') {
+        } else if (selectedFaction === 'Decepticons') {
             jsonFile = "/src/json/decepticons.json";
         } else {
             console.error("Invalid faction selected.");
@@ -23,21 +25,68 @@ document.addEventListener("DOMContentLoaded", function () {
             })
             .then((data) => {
                 let output = '';
-                data.units.forEach(function (unit) {
-                    output += `
-                    <div>
-                    <div>${unit.name}</div>
-                    <div>${unit.class}</div>
-                    </div>
-                    `
-                })
-                document.getElementById("gridContainer").innerHTML = output;
-                console.log(output)
+                const orderedData = data.units.sort((a, b) => a.name.localeCompare(b.name));
 
+                orderedData.forEach(function (unit, index) {
+                    output += `
+                        <div class="grid-item" data-index="${index}">
+                            <div class="unit-name">${unit.name}</div>
+                            <div class="unit-class">${unit.class}</div>
+                            <img src="${unit.art}" alt="${unit.name} Art" class="unit-art"/>
+                        </div>
+                    `;
+                });
+
+                const gridContainer = document.getElementById("gridContainer");
+                gridContainer.innerHTML = output;
+
+                const gridItems = gridContainer.querySelectorAll(".grid-item");
+                gridItems.forEach(item => {
+                    item.addEventListener("click", function (event) {
+                        const unitIndex = this.getAttribute("data-index");
+                        const unit = orderedData[unitIndex];
+                        showUnitDetails(unit);
+                        event.stopPropagation();
+                    });
+                });
             })
             .catch((error) => {
                 console.error("Error fetching faction data:", error);
             });
+    };
+    const unitContainer = document.getElementById("unitContainer");
+    const showUnitDetails = (unit) => {
+        unitContainer.innerHTML = `
+            <div class="unit-details">
+                <button id="closePopup">Close</button>
+                <h2 class="popupUnitName">${unit.name}</h2>
+                <div id="class">
+                    <div><strong>Class:</strong> ${unit.class}</div>
+                    <img src="/src/assets/classes/${unit.class}.png" class="classIcon">
+                </div>
+                <div><strong>Max Rarity:</strong>${unit.maxRarity === 4 ? " ★★★★ " : " ★★★★★ "}</div>
+                <div><strong>Rival:</strong> ${unit.rival}</div>
+                <p>${unit.bio || "No description available."}</p>
+                <img src="${unit.art}" alt="${unit.name} Art"/>
+            </div>
+        `;
+        unitContainer.style.display = "block";
+
+        document.getElementById("closePopup").addEventListener("click", (event) => {
+            unitContainer.style.display = "none";
+        });
+
+        unitContainer.querySelector(".unit-details").addEventListener("click", (event) => {
+            event.stopPropagation();
+        });
+
+        document.addEventListener("click", closeOnOutsideClick);
+    };
+
+
+    const closeOnOutsideClick = () => {
+        unitContainer.style.display = "none";
+        document.removeEventListener("click", closeOnOutsideClick);
     };
 
     factionsDropdown.addEventListener("change", fetchFactionData);

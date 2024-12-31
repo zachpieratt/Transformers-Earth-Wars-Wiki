@@ -4,16 +4,6 @@
             "name": "Broadside",
             "class": "Triple Changer",
             "bio": "Broadside is a powerful and highly proficient combatant, in any of his three modes, but boy does he like to complain! If it's not some internal gyroscopic malfunction in aircraft carrier mode that makes him seasick, it's vertigo in jet mode... and so on. The litany of grumbles and gripes never stops, which can be wearing on any Autobot assigned to work with him. But with mass-shifting abilities, a pulse-cannon and a Vibro-axe, Broadside more than compensates for the strain of partnering up with him. He's basically a one-'bot army.",
-            "abilities": [
-                {
-                    "name": "Assault Drones",
-                    "description": "Deploy 5 untargetable Assault Drones that attack for DPS each. When you deploy more drones or you are destroyed, your Assault Drones explode, doing damage each. These values increase with your Damage."
-                },
-                {
-                    "name": "Repair Drones",
-                    "description": "Deploy 5 untargetable Repair Drones to heal for HPS each. When you deploy more drones or you are destroyed, your Repair Drones explode, doing healing each. These values increase with your Damage."
-                }
-            ],
             "passiveAbility": "Grenade Toss",
             "abilityCost": 4,
             "increasePerCast": 2,
@@ -25,12 +15,6 @@
             "name": "Star Saber",
             "class": "Special",
             "bio": "Famed as one of the greatest cyber-swordsmen in the known universe, Star Saber fought his way up through the ranks, from footsoldier to commander, driven by a flaming passion for justice and peace, and a commitment to the Autobot cause to rival that of Optimus Prime. His idealism, courage, and strength are legendary, but sometimes his zeal can override his otherwise calm, collected nature and get him into trouble.",
-            "abilities": [
-                {
-                    "name": "Quick Strike",
-                    "description": "Rush in, spreading electrical fire in a large radius. Targets are disabled for 6 seconds and take damage."
-                }
-            ],
             "passiveAbility": "N/A",
             "abilityCost": 10,
             "increasePerCast": 3,
@@ -42,12 +26,6 @@
             "name": "Afterbreaker",
             "class": "Special",
             "bio": "Afterbreaker is mad, bad, and dangerous to know… if you catch him in the wrong mood. Unfortunately, this mercurial character can be studiously engaged in advanced theoretical science one moment and fly into a berserker rage the next. To be fair, it doesn't take much to set him off, and he particularly hates being given orders. Afterbreaker's fiery temperament is reflected in his flaming motorbike skid maneuver, which can trap a foe in a blazing ring of metal-melting fire. The Technobot team framework helps rein in some of his incendiary nature.",
-            "abilities": [
-                {
-                    "name": "Sabotage",
-                    "description": "Create a ring of fire that deals damage and prevents enemies from receiving shielding, and shoot bolts of electrical fire up to 8 times disabling and causing damage."
-                }
-            ],
             "passiveAbility": "Flamethrower",
             "abilityCost": 5,
             "increasePerCast": 3,
@@ -59,12 +37,6 @@
             "name": "Optimus Prime",
             "class": "Special",
             "bio": "Committed, inspirational, selfless… Optimus Prime is all these things and more, a born leader and idealistic to boot. But what makes him a truly great leader, is his own lack of hubris, his seeming inability to place his life, his worth, above any of his fellow Autobots, or in fact any other lifeform. He believes passionately that freedom is the right of all sentient beings, and would gladly sacrifice himself to make that belief a reality.",
-            "abilities": [
-                {
-                    "name": "Inspiring Charge",
-                    "description": "Rally Autobots to engage the target. Then charge in damaging walls along the way."
-                }
-            ],
             "passiveAbility": "Every 5 seconds, shoots at enemies from a distance (cannot reach target over walls).",
             "abilityCost": 5,
             "increasePerCast": 2,
@@ -76,12 +48,6 @@
             "name": "Prowl",
             "class": "Gunner",
             "bio": "Endlessly patient, calm and cool under pressure, it's these very qualities that make Prowl something of a frustrating enigma to his fellow Autobots. Prowl deals first and foremost in logic, eschewing emotion and sociability in favour of efficiency. But the net result is it makes him something of a cold fish. A misfit. But it also makes him a superb military analyst and strategist, if a little unprepared for the unexpected.",
-            "abilities": [
-                {
-                    "name": "Rocket Barrage",
-                    "description": "Shoots 4 rockets from long range delivering damage over the area around the target."
-                }
-            ],
             "passiveAbility": "N/A",
             "abilityCost": 6,
             "increasePerCast": 2,
@@ -93,12 +59,6 @@
             "name": "Ratchet",
             "class": "Medic",
             "bio": "Never talk to Ratchet about problems, for him it's all solutions. If it's broken, he'll remake it. If it's a battlefield wound he'll patch and repair it. It's this comforting repair bay manner that puts those he treats at ease, and a deft, gentle touch with the laser scalpel doesn't hurt either. All of which belies his otherwise gruff, somewhat outspoken manner, and Ratchet's one of the few Autobots that Optimus Prime tolerates any backtalk from… mostly.",
-            "abilities": [
-                {
-                    "name": "Healing Grenade",
-                    "description": "Launch a grenade that heals all Autobots in a large area over 5 seconds."
-                }
-            ],
             "passiveAbility": "N/A",
             "abilityCost": 4,
             "increasePerCast": 2,
@@ -110,12 +70,6 @@
             "name": "Blaster",
             "class": "Special",
             "bio": "Loud, proud and in-your-face, Blaster has a zest for life and an unquenchable appetite for action. The louder and more intense it gets, the more it sparks his circuits. The opposite of sneaky, he prefers to make his presence known, literally assaulting his enemies with sound and fury. But his special passion is good old fashioned rock 'n' roll, and his ability to monitor multiple frequencies and channels has exposed him to a wide variety of music.",
-            "abilities": [
-                {
-                    "name": "Deploy Minions",
-                    "description": "Release 4 minions into battle that have 30% of your Health and a percentage of your Damage."
-                }
-            ],
             "passiveAbility": "Shoots foes from a distance (not over walls)",
             "abilityCost": 3,
             "increasePerCast": 3,
@@ -127,12 +81,6 @@
             "name": "Bumblebee",
             "class": "Special",
             "bio": "Bumblebee is among the most open and receptive of all the Autobots in terms of befriending other species, his wide-eyed wonder at his surroundings and his irrepressible enthusiasm, combined with a genuinely affable personality, make him perfect for first contact with an alien species. But don't let that fool you, he may be small but Bumblebee packs a punch in any battle, and he's unflinchingly loyal to the Autobot cause.",
-            "abilities": [
-                {
-                    "name": "EMP Bomb",
-                    "description": "Throw an EMP Bomb that explodes stunning nearby targets for several seconds and deals 33% attack damage every second."
-                }
-            ],
             "passiveAbility": "N/A",
             "abilityCost": 2,
             "increasePerCast": 2,
@@ -144,12 +92,6 @@
             "name": "Cliffjumper",
             "class": "Gunner",
             "bio": "Though one of the physically one of the smaller Autobots, Cliffjumper has the gung ho attitude of much bigger bots, and an impatient, straining-at-the-leash growl of let me at 'em can be heard prior to any engagement with the enemy. His eagerness and daring have no equal, but he does tend towards impulsiveness, especially when it comes to any kind of softly-softly approach. Cliffjumper is prone to go through things rather than over or around them.",
-            "abilities": [
-                {
-                    "name": "Glass Gas Rockets",
-                    "description": "Shoots out 4 rockets that deal damage and engulf an area in Glass Gas, making all targets take an extra 40% damage for several seconds."
-                }
-            ],
             "passiveAbility": "N/A",
             "abilityCost": 4,
             "increasePerCast": 3,
@@ -161,12 +103,6 @@
             "name": "Grimlock",
             "class": "Special",
             "bio": "A rampaging force of nature, Grimlock is the most feared and powerful of the Dinobots, as irascible and savage as the T-Rex his beast mode is modelled on. Combat is in Grimlock's spark, and periods in between battles are simply periods of great frustration and seething resentment. Any display of weakness is worthy only of contempt in Grimlock's optics, but he's not as dumb as he likes people to think, and his courage on the battlefield is the stuff of legend.",
-            "abilities": [
-                {
-                    "name": "Sword Rush",
-                    "description": "Rush into combat smashing walls along the way. Deals damage to the final target."
-                }
-            ],
             "passiveAbility": "Blows fire to enemies in a short range every 3 seconds.",
             "abilityCost": 3,
             "increasePerCast": 3,
@@ -178,12 +114,6 @@
             "name": "Ironhide",
             "class": "Warrior",
             "bio": "Tough, ornery and uncompromising, Ironhide is an old school warrior - low on words, high on knocking heads together. As Optimus Prime's head of security, he takes the attitude that everyone is suspect until proven otherwise, but his gruff exterior hides a softer soul, his concern for life, be it mechanical or organic or somewhere inbetween, second only to that of Optimus Prime himself.",
-            "abilities": [
-                {
-                    "name": "Electromagnetic Charge",
-                    "description": "Put a shield that blocks 80% damage for several seconds and rush into combat damaging walls and leaving an Electromagnetic Pulse behind. Affected targets are disabled for several seconds. Attracts defenses!"
-                }
-            ],
             "passiveAbility": "Shoots at enemies in a short range every 5 seconds. (cannot reach targets over walls)",
             "abilityCost": 3,
             "increasePerCast": 2,
@@ -195,12 +125,6 @@
             "name": "Jetfire",
             "class": "Aerial",
             "bio": "Jetfire's reckless daring, the result of being the swiftest of all the Autobots, creates an image of gung ho bravado, but in truth Jetfire believes the key to victory is hard, laboratory-based science, and only by solving the big questions and advancing Autobot tech can they truly defeat their enemy. His allegiance to the cause is matched only by his devotion to science, but his fellow Autobots distrust him as he was formerly a Decepticon.",
-            "abilities": [
-                {
-                    "name": "Air Strike",
-                    "description": "Fire 4 powerful rockets at a target building."
-                }
-            ],
             "passiveAbility": "N/A",
             "abilityCost": 4,
             "increasePerCast": 2,
@@ -212,12 +136,6 @@
             "name": "Mirage",
             "class": "Gunner",
             "bio": "Mirage by name, mirage by nature - this Autobot speedster functions best by hiding who and what he is from the enemy. Because honestly, given a straight choice, he'd rather be racing in Monte Carlo than fighting 'cons on the battlefield, and he sees that as a weakness that could be exploited. Nevertheless, Mirage is an effective and deadly fighter, and an even more effective intelligence gatherer, which is the role he much prefers.",
-            "abilities": [
-                {
-                    "name": "EMP Rocket Barrage",
-                    "description": "Shoots out 6 rockets that disable enemy defenses and deal damage in a small area."
-                }
-            ],
             "passiveAbility": "N/A",
             "abilityCost": 4,
             "increasePerCast": 2,
@@ -229,12 +147,6 @@
             "name": "Silverbolt",
             "class": "Aerial",
             "bio": "Though Silverbolt projects the image of a brave, grimly determined warrior - as befitting his role as Aerialbot Commander - he's actually afraid of heights, a phobia he masks but has never quite conquered. The illusion of aerial ease is helped by his sleek, aerodynamic jet form, making him seem a natural-born flyer. Rather than show any emotional weakness, Silverbolt keeps his eyes firmly on the horizon. Never down.",
-            "abilities": [
-                {
-                    "name": "EMP Bomb",
-                    "description": "Throw an EMP Bomb that explodes stunning nearby targets and deals attack damage."
-                }
-            ],
             "passiveAbility": "N/A",
             "abilityCost": 3,
             "increasePerCast": 2,
@@ -246,12 +158,6 @@
             "name": "Skydive",
             "class": "Aerial",
             "bio": "Studious, thoughtful, Skydive knows more about air tactics than all of the other Aerialbots put together, but sometimes leans more towards theory than actual practice. The trick is, to get his nose out of the book and into the sky. Once there, the others look to him for guidance and group strategy, something he finds - given his streak of extreme modesty - a little daunting. Skydive just doesn't realize how smart he really is.",
-            "abilities": [
-                {
-                    "name": "Acid Bombs",
-                    "description": "Drop 6 acid bombs on a target building each dealing large damage."
-                }
-            ],
             "passiveAbility": "N/A",
             "abilityCost": 4,
             "increasePerCast": 3,
@@ -263,12 +169,6 @@
             "name": "Sunstreaker",
             "class": "Gunner",
             "bio": "Not only does Sunstreaker believe he's the best, he tells everyone he is. Endlessly. He's the complete egotist, convinced of his invulnerability on the basis that no one does it better. Sunstreaker loves to discuss his aerodynamic styling and sleek bodywork, and is faintly contemptuous of the other sports car-styled Autobots. He's also a dangerous, ruthless warrior… if he could just shut up long enough to fight.",
-            "abilities": [
-                {
-                    "name": "Incendiary Barrage",
-                    "description": "Shoots 6 rockets that engulf a large area in flames dealing damage over time."
-                }
-            ],
             "passiveAbility": "N/A",
             "abilityCost": 7,
             "increasePerCast": 2,
@@ -280,12 +180,6 @@
             "name": "Wheeljack",
             "class": "Medic",
             "bio": "When it comes to improvisation, Wheeljack is in a whole other league to most mechanical engineers, and that flair for thinking outside the box applies to his battlefield tactics too. 'Never do what the enemy expects,' is his approach to warfare, and it's served him well. As has his knack for whipping up wild new gadgets, often out of whatever scrap metal and power cells are to hand, though it has earned him something of a 'mad scientist' tag.",
-            "abilities": [
-                {
-                    "name": "Combat Stimulants",
-                    "description": "Amplify movement and attack speeds of nearby Autobots for 8 seconds. (10 secs for the 5 star version)"
-                }
-            ],
             "passiveAbility": "N/A",
             "abilityCost": 3,
             "increasePerCast": 2,
@@ -297,12 +191,6 @@
             "name": "Air Raid",
             "class": "Aerial",
             "bio": "Gung-ho or rash? Foolish or fearless? It's hard to tell with Air Raid, but it's clear he delights in tactics that others might well see as suicidal - streaking at Mach 3 into a cluster of Decepticon Seeker jets and letting rip with his air-to-air heat-seeking missiles.What is sure, is his wild-eyed devil-may-care personality matches his fighting style. He just loves to catch the enemy napping and spark their wires!",
-            "abilities": [
-                {
-                    "name": "Fusion Bomb",
-                    "description": "Drop a fusion bomb on the target. If the target is destroyed within 20 seconds, the bomb explodes dealing massive damage to adjacent targets."
-                }
-            ],
             "passiveAbility": "N/A",
             "abilityCost": 3,
             "increasePerCast": 3,
@@ -314,12 +202,6 @@
             "name": "Powerglide",
             "class": "Aerial",
             "bio": "To say Powerglide delights in his aerial prowess is a huge understatement. He loves showing off his dazzling airborne virtuosity, and isn't above a bit of gratuitous grandstanding. He's equally happy performing for friend or foe, as long as he gets the requisite appreciation. But deep down, Powerglide's bravado covers up for his lack of speed in aerial mode, and low strength in robot mode.",
-            "abilities": [
-                {
-                    "name": "Bombing Run",
-                    "description": "Drops 12 bombs in a line across the target dealing damage."
-                }
-            ],
             "passiveAbility": "N/A",
             "abilityCost": 4,
             "increasePerCast": 1,
@@ -331,12 +213,6 @@
             "name": "Alpha Bravo",
             "class": "Gunner",
             "bio": "Forget speed - that's for others. Alpha Bravo is all about precision and manoeuvrability - his helicopter alt. mode tailor made for getting into tight spots no other flyer can reach. Nevertheless, Alpha Bravo has the tiniest bit of an inferiority complex when in the company of his fellow Aerialbots, and sometimes takes unnecessary risks to prove he's every bit as good as them.",
-            "abilities": [
-                {
-                    "name": "Rocket Barrage",
-                    "description": "Shoots 4 rockets from long range delivering damage over the area around the target."
-                }
-            ],
             "passiveAbility": "N/A",
             "abilityCost": 6,
             "increasePerCast": 2,
@@ -348,12 +224,6 @@
             "name": "Jazz",
             "class": "Gunner",
             "bio": "Few assimilate local knowledge as readily and easily as chief scout Jazz, who devours alien culture with a hunger that can only be described as voracious. His knowledge of local terrain, geo-political nuances and customs makes him indispensible, and not only is he good at what he does - he does it with style. He may not be biggest gun on the block, and he can get distracted, but he still pulls off the seemingly impossible with cool panache.",
-            "abilities": [
-                {
-                    "name": "Orbital Strike",
-                    "description": "Call down a powerful Orbital Bombardment. Heavily damages every target in a large area."
-                }
-            ],
             "passiveAbility": "N/A",
             "abilityCost": 9,
             "increasePerCast": 3,
@@ -365,12 +235,6 @@
             "name": "Windblade",
             "class": "Special",
             "bio": "Windblade is valiant, dutiful and full of conviction… to a fault. The fault being she can be too trusting, too idealistic, almost to the point of naivety. It sometimes drives her closest Autobot allies to distraction, but in a pinch there's no one more committed to the cause or energetic in battle. An experienced swordswoman, she also has the rare ability to communicate with the vast and ancient race of Metrotitans.",
-            "abilities": [
-                {
-                    "name": "Quick Strike",
-                    "description": "Fire 6 rockets at the target dealing damage. Then land nearby, put a protective shield that blocks 80% damage for 5 seconds and engage!"
-                }
-            ],
             "passiveAbility": "N/A",
             "abilityCost": 5,
             "increasePerCast": 2,
@@ -382,12 +246,6 @@
             "name": "Pyra Magna",
             "class": "Warrior",
             "bio": "A product of her environment, the forbidding Sea of Rust, Pyra Magna knows how to make hard choices, and how to turn adversity - in her case, a water system contaminated by corrosive gasses - to her advantage… her Corrosion Cannons can weaken the molecular structure of an enemy's armour and bring their gears to a grinding halt.",
-            "abilities": [
-                {
-                    "name": "Fire Rush",
-                    "description": "Put a shield that blocks 80% damage for several seconds and rush into combat damaging walls and setting buildings on fire, dealing damage. Attracts defenses!"
-                }
-            ],
             "passiveAbility": "Shoots from a distance",
             "abilityCost": 3,
             "increasePerCast": 2,
@@ -399,12 +257,6 @@
             "name": "Firefly",
             "class": "Aerial",
             "bio": "The opposite of covert, this recon specialist relies on his speed and daredevil evasive tactics. Firefly's colour and markings are bold and brash, and that's his nature too - why hide when you can blast across enemy territory and out again before anyone can even react. He almost dares others to try and match him. But there's a shifty side to Firefly - he's changed his name more than once and no one quite knows why.",
-            "abilities": [
-                {
-                    "name": "Air Strike",
-                    "description": "Fire 4 powerful rockets at a target building."
-                }
-            ],
             "passiveAbility": "N/A",
             "abilityCost": 4,
             "increasePerCast": 2,
@@ -416,12 +268,6 @@
             "name": "Rust Dust",
             "class": "Special",
             "bio": "Rust Dust has a habit of acting first and thinking later, tearing off into danger and rationalizing that a moving target is harder to hit. The merest whiff of an enemy heat signature and she's away, more often than not leading the others on a wild scrap chase. She's so imbalanced, her teammates wonder how she manages to stay on two wheels, but often her hair-trigger instincts have proven invaluable.",
-            "abilities": [
-                {
-                    "name": "Artillery Support",
-                    "description": "Call in Artillery at your current position and get away! Deals massive damage in a large area over 10 seconds."
-                }
-            ],
             "passiveAbility": "N/A",
             "abilityCost": 4,
             "increasePerCast": 3,
@@ -433,12 +279,6 @@
             "name": "Dustup",
             "class": "Gunner",
             "bio": "Dustup does nothing by half measures, and once she's rolling the smart course of action is to stay out of her way. Her default state is overload, her systems run hot, and if there's no trouble to be found, she'll make some. Her fellow Rust Renegades accept that inevitably, sooner or later, Dustup will get in over her head. But they know that if they were ever in deep trouble, Dustup would be first to their aid.",
-            "abilities": [
-                {
-                    "name": "Cluster Strike",
-                    "description": "Fire off 16 grenades to deal medium damage over massive area."
-                }
-            ],
             "passiveAbility": "N/A",
             "abilityCost": 3,
             "increasePerCast": 1,
@@ -450,12 +290,6 @@
             "name": "Jumpstream",
             "class": "Warrior",
             "bio": "Fiercely loyal, Jumpstream would do anything, risk anything, to protect or defend Pyra Magna. In return, Pyra Magna has done her level best to give Jumpstream the best possible chance of not needlessly sacrificing herself, training her to become a master of hand-to-hand combat. Thankfully, Jumpstream also has the (rare) ability to teleport herself out of trouble. The trick is, convincing her to use it!",
-            "abilities": [
-                {
-                    "name": "Shield Rush In",
-                    "description": "Put a protective shield that blocks 90% damage for several seconds, then rush into combat damaging walls along the way. Deals damage to the final target. Attracts defenses!"
-                }
-            ],
             "passiveAbility": "Shoot enemies from a distance",
             "abilityCost": 4,
             "increasePerCast": 1,
@@ -467,12 +301,6 @@
             "name": "Skyburst",
             "class": "Special",
             "bio": "The yin to Stormclash's yang, Skyburst is a warrior of peace, willing to fight only when all other options are exhausted and when it's for the demonstrably greater good. Unlike her twin sister, there are clear lines she just won't cross, and Skyburst stands tall for justice above all else. There's no doubting her effectiveness as a warrior, but every action is tempered by restraint and mercy.",
-            "abilities": [
-                {
-                    "name": "Line Barrage",
-                    "description": "Shoots 12 small rockets from long range delivering damage in a line across the target."
-                }
-            ],
             "passiveAbility": "N/A",
             "abilityCost": 4,
             "increasePerCast": 2,
@@ -484,12 +312,6 @@
             "name": "Stormclash",
             "class": "Aerial",
             "bio": "Unlike her twin sister Skyburst, Stormclash fights with a vengeance not normally seen among the Autobots, and there are few lines she won't cross. Ruthless and battle-hardened, Stormclash is prone to fits of unchecked aggression and ruthlessness, which makes her more pacifist sister uncomfortable. Nevertheless, Stormclash reserves her most merciless moves for anyone who threatens Skyburst.",
-            "abilities": [
-                {
-                    "name": "Incendiary Strike",
-                    "description": "Fire 4 powerful rockets at a target building dealing some damage and sets the target on fire for extra damage over 5 secs."
-                }
-            ],
             "passiveAbility": "N/A",
             "abilityCost": 4,
             "increasePerCast": 2,
@@ -501,12 +323,6 @@
             "name": "Slug",
             "class": "Warrior",
             "bio": "Considering he's one of the good 'bots, Slug is as nasty and mean-spirited as they come, and resents everyone from Optimus Prime down. The actual process it takes to build up a fiery (3,000 degrees centigrade plus) blast and reduce an enemy to molten slag is hardly energy-efficient, but he doesn't care. It's firepower well spent in his book. As he often says, 'I have no need for friends, even less for enemies'.",
-            "abilities": [
-                {
-                    "name": "Fire Rush",
-                    "description": "Put a shield that blocks 80% damage for several seconds and rush into combat damaging walls and setting buildings on fire, dealing damage. Attracts defenses!"
-                }
-            ],
             "passiveAbility": "N/A",
             "abilityCost": 3,
             "increasePerCast": 2,
@@ -518,16 +334,6 @@
             "name": "Huffer",
             "class": "Special",
             "bio": "There's happy, and then there's Huffer. Who is anything but. Surly, cantankerous, prone to bouts of depression (he misses Cybertron something rotten), he's not the most sociable of Autobots, but he is very good at what he does. With incredible strength for such a small 'bot, he can whittle up a fully-functioning mechanized fortress out of scrap. He just grumbles a lot while he's doing it.",
-            "abilities": [
-                {
-                    "name": "Rupture Beam Laser",
-                    "description": "Place a Rupture Beam Laser that is untargetable by defences. Deals approx. % Damage over 15 seconds. Lasts for 15 seconds."
-                },
-                {
-                    "name": "Healing Beam Laser",
-                    "description": "Place a Healing Beam Laser that is untargetable by defences and heals approx. % of your Damage over 15 seconds. Lasts for 15 seconds."
-                }
-            ],
             "passiveAbility": "N/A",
             "abilityCost": 3,
             "increasePerCast": 2,
@@ -539,12 +345,6 @@
             "name": "Arcee",
             "class": "Warrior",
             "bio": "Appearances… can be deceptive. Quick witted and formidable in battle, Arcee is compassionate to her allies but utterly merciless to her enemies. Streamlined bodywork and light alloy construction only mean she's faster, more agile and ultimately deadlier than most of her fellow Autobots. A master of many weapons, from blasters to swords, ultimately Arcee is a living weapon in her own right.",
-            "abilities": [
-                {
-                    "name": "Holo Decoy",
-                    "description": "Place a decoy that disables defenses and has a percentage of your Health. One decoy can be active at a time."
-                }
-            ],
             "passiveAbility": "Shoots at nearby enemies every 5 seconds (cannot reach targets over walls).",
             "abilityCost": 3,
             "increasePerCast": 3,
@@ -556,12 +356,6 @@
             "name": "Sideswipe",
             "class": "Warrior",
             "bio": "Personal safety often takes a backseat to Sideswipe's reckless but brave actions, though don't doubt for a moment that it's number one he's looking out for. Though less cold-blooded than his twin brother Sunstreaker, Sideswipe will use any dirty underhanded tactic he can think of to come out on top. But being on Earth has taught him other priorities, like saving innocent species caught in the crossfire.",
-            "abilities": [
-                {
-                    "name": "Shattering Charge",
-                    "description": "Put a shield that blocks 80% damage for several seconds and rush into combat damaging walls and leaving trails of Glass Gas behind. Affected targets take 40% more damage for several seconds. Attracts defenses!"
-                }
-            ],
             "passiveAbility": "Laser Gun",
             "abilityCost": 4,
             "increasePerCast": 2,
@@ -573,12 +367,6 @@
             "name": "Swoop",
             "class": "Aerial",
             "bio": "Swooping from the sky to rain ballistic missiles down on hapless Decepticons is Swoop's forte, and he goes about these aerial dive bombing raids with an unwholesome glee, delighting in the fear and confusion he sows on the battlefield. But appearances can be deceptive and while Swoop in Dinobot form assumes the predatory persona of the creature he was modelled on, as a bot he tends to be affable and good-natured.",
-            "abilities": [
-                {
-                    "name": "Fire Mission",
-                    "description": "Set out to damage targets in an area, striking them up to 18 times."
-                }
-            ],
             "passiveAbility": "Shoots a fire beam from medium range (cannot reach targets behind a wall)",
             "abilityCost": 5,
             "increasePerCast": 5,
@@ -590,12 +378,6 @@
             "name": "Ultra Magnus",
             "class": "Special",
             "bio": "Soldier, law enforcer, staunch defender of Autobot principles, Ultra Magnus is all these things and more. But while he is comfortable following orders, he isn't as happy giving them. The mantle of leadership doesn't sit easily on his shoulders, though with his indomitable courage and gift for battlefield improvisation under fire, he'd be the perfect choice. In many ways, he simply leads by example.",
-            "abilities": [
-                {
-                    "name": "Ultra Barrage",
-                    "description": "Fire 21 rockets scattered in a line across the target. Followed by 3 big guided missiles which hit for high damage."
-                }
-            ],
             "passiveAbility": "N/A",
             "abilityCost": 7,
             "increasePerCast": 3,
@@ -607,12 +389,6 @@
             "name": "Hot Rod",
             "class": "Special",
             "bio": "Hot Rod is the original 'turbo-revving young punk', with a carefree daredevil attitude that leaves his fellow Autobots a jittery mess. Blame it on his 'youth' if you will, but Hot Rod is always looking for that headlong buzz, that extra x-treme shot of techno-adrenaline. Live fast, die… well, later, is his credo, and Hot Rod certainly believes in living life to the fullest. The closer to the edge it is, the more he likes it.",
-            "abilities": [
-                {
-                    "name": "Blessing of the Matrix",
-                    "description": "Makes a friendly bot invulnerable to damage and stun effects."
-                }
-            ],
             "passiveAbility": "Throws an incendiary grenade over walls",
             "abilityCost": 6,
             "increasePerCast": 2,
@@ -624,12 +400,6 @@
             "name": "Hot Spot",
             "class": "Warrior",
             "bio": "'Never ask anyone to do what you won't do yourself' are practically the words Hot Spot lives by. He leads by example, always striving to be the best he can be, but never puts himself above those in his command. You'll find him at the forefront of any battle charge, howling his defiance, cannons blazing, and even when the victory is won, he never truly stands down, always ready to serve… and protect.",
-            "abilities": [
-                {
-                    "name": "Reflective Shield",
-                    "description": "Put on a protective shield that reflects 50% (60% for 5 star bot) damage back to the attackers for several seconds, then charge the target. Attracts defenses!"
-                }
-            ],
             "passiveAbility": "Shoots from a distance",
             "abilityCost": 4,
             "increasePerCast": 2,
@@ -641,12 +411,6 @@
             "name": "Seaspray",
             "class": "Gunner",
             "bio": "In many ways, Seaspray found his spiritual home on planet Earth, or rather, its oceans. With no comparable medium on Cybertron, he broke new ground - relishing the newfound freedom of movement and sheer expanse of his territory. Though well equipped for naval combat, Seaspray's hovercraft mode is vulnerable to enemy fire, and one direct hit would send him to the bottom of the ocean - forever.",
-            "abilities": [
-                {
-                    "name": "Whirlwind",
-                    "description": "Summon a devastating tornado that moves to target location dealing damage every second. Stuns and interrupts defenses."
-                }
-            ],
             "passiveAbility": "N/A",
             "abilityCost": 4,
             "increasePerCast": 3,
@@ -658,12 +422,6 @@
             "name": "Gnaw",
             "class": "Special",
             "bio": "While normally a feral Sharkticon is no one's ally, Gnaw is the exception - loyal to whomever last fed him. As insatiable in appetite as he is savage in combat, Gnaw is one of those walking engines of destruction you just wind up and let go. Trouble is, if the opposition has some energon snacks handy, Gnaw will think nothing of biting the (original) hand that feeds.",
-            "abilities": [
-                {
-                    "name": "Chomp Chomp Chomp",
-                    "description": "Unleash four vicious Sharkticons. Warning: current Sharkticons will rebel and explode!"
-                }
-            ],
             "passiveAbility": "Spits Acid",
             "abilityCost": 4,
             "increasePerCast": 3,
@@ -675,12 +433,6 @@
             "name": "Pipes",
             "class": "Warrior",
             "bio": "Tough, brave and very strong; Pipes notable talent is to emit clouds of toxic, corrosive fumes from his exhaust pipes. Whilst it can melt through 2 inch thick steel plating, it's not something you really want to shout about! Still, he's a good 'bot to have on your team if you need a solid, sturdy and dependable warrior, just… don't get downwind of him.",
-            "abilities": [
-                {
-                    "name": "Corrosive Charge",
-                    "description": "Put a shield that blocks 80% damage for several seconds and rush into combat damaging walls and covering buildings in acid, dealing damage and causing 20% speed reduction. Attracts defenses!"
-                }
-            ],
             "passiveAbility": "Acid Thrower",
             "abilityCost": 3,
             "increasePerCast": 1,
@@ -692,12 +444,6 @@
             "name": "Hound",
             "class": "Gunner",
             "bio": "Intrepid, fearless, unwavering, Hound is all these things and more - perfect qualities for an advance scout. But the truth is Hound just loves to explore. If it's new, uncharted or off-the-beaten-track, Hound's your 'bot. Using his topographical skills and 3D simulation circuitry, he'll have plotted every twist and turn of the terrain in nano-seconds, and his jeep mode is the perfect all-terrain, off-road form.",
-            "abilities": [
-                {
-                    "name": "Release the Hounds!",
-                    "description": "Release 5 holo bombs that deal 69 damage to each target. Deals double damage to resource buildings!"
-                }
-            ],
             "passiveAbility": "N/A",
             "abilityCost": 6,
             "increasePerCast": 2,
@@ -709,12 +455,6 @@
             "name": "Perceptor",
             "class": "Special",
             "bio": "Extremely intelligent, with a data-storage capacity second to none, Perceptor's thirst for knowledge is unquenchable, and it's pure science - not battle - that lights his circuits. Specializing in metallurgy, molecular chemistry and electrical engineering, Perceptor is the go-to 'bot when it comes to adapting to Earth combat. Although good-natured and affable, Perceptor doesn't really play well with others.",
-            "abilities": [
-                {
-                    "name": "Defense Hack",
-                    "description": "Hack a defence making it attack other defences with double attack speed but 75% damage for 5.5 seconds."
-                }
-            ],
             "passiveAbility": "For every star level, Perceptor has a passive effect that hacks any outpost bot once per battle for 5.5 secs.",
             "abilityCost": 4,
             "increasePerCast": 3,
@@ -726,12 +466,6 @@
             "name": "Smokescreen",
             "class": "Gunner",
             "bio": "Everything Smokescreen does is designed to mislead. Nothing is what it seems, and every surface action has a lurking ulterior motive. Misinformation is the weapon he wields to wrong-foot and lead the enemy astray. He even uses his affable nature to root out the deepest concerns of his fellow Autobots. And in car mode, his tailpipe emits a screen of thick black smoke to mask his maneuvers. A true smokescreen.",
-            "abilities": [
-                {
-                    "name": "Execute!",
-                    "description": "Instantly destroy a building below 25/25/30% health or snipe an enemy bot dealing large damage. Cannot execute the HQ."
-                }
-            ],
             "passiveAbility": "N/A",
             "abilityCost": 3,
             "increasePerCast": 0,
@@ -743,12 +477,6 @@
             "name": "First Aid",
             "class": "Medic",
             "bio": "Highly empathic, First Aid really feels for those he treats, and so works tirelessly to repair the seemingly endless damage caused by war. That laudable character trait makes First Aid slightly reticent in battle - as he hesitates to inflict that kind of pain on others. But he knows that in the end if the Autobots don't fight - and win - the hurting will never stop for anyone, and so he struggles on.",
-            "abilities": [
-                {
-                    "name": "Deploy Medibots",
-                    "description": "Deploy two Medibots, each with an ability to shield friendly bots blocking 40/45% of damage."
-                }
-            ],
             "passiveAbility": "N/A",
             "abilityCost": 4,
             "increasePerCast": 2,
@@ -760,12 +488,6 @@
             "name": "Optimus Primal",
             "class": "Special",
             "bio": "Though young and untested, Optimus Primal soon rose to the challenge of leadership. More down-to-Cybertron than his legendary namesake, and prone to stuffy speeches, Primal is nevertheless committed to the Maximal codes of honor and duty and is brave and selfless in battle. But he is not above finding unorthodox solutions to problems - in his own words, 'sometimes, crazy works'",
-            "abilities": [
-                {
-                    "name": "Battle Orders",
-                    "description": "Target their defenses! Friendly bots are given a health shield and prioritize all defenses for a time."
-                }
-            ],
             "passiveAbility": "Jump in and cause damage, Shoot foes from a distance",
             "abilityCost": 6,
             "increasePerCast": 2,
@@ -774,72 +496,510 @@
             "art": "/src/assets/autobots/optimusPrimal1.png"
         },
         {
-            "name": "",
-            "class": "",
-            "bio": "",
-            "abilities": [
-                {
-                    "name": "",
-                    "description": ""
-                }
-            ],
-            "passiveAbility": "",
-            "abilityCost": 0,
-            "increasePerCast": 0,
-            "maxRarity": 0,
-            "rival": "",
-            "art": ""
+            "name": "Sludge",
+            "class": "Warrior",
+            "bio": "Despite his plodding, lumbering gait and bulldozer-like approach to anything in his way, Sludge is a gentle and even shy 'bot at heart. But conscious of his bellicose fellow Dinobots, and wary of their scorn, he keeps his sensitive side hidden. Sludge's seismic footfalls have been known to cause inadvertent landslides, which sometimes bury Sludge and anyone nearby, making others dismiss him as clumsy and accident prone.",
+            "passiveAbility": "N/A",
+            "abilityCost": 5,
+            "increasePerCast": 3,
+            "maxRarity": 5,
+            "rival": "Straxus",
+            "art": "/src/assets/autobots/sludge1.png"
         },
         {
-            "name": "",
-            "class": "",
-            "bio": "",
-            "abilities": [
-                {
-                    "name": "",
-                    "description": ""
-                }
-            ],
-            "passiveAbility": "",
-            "abilityCost": 0,
-            "increasePerCast": 0,
-            "maxRarity": 0,
-            "rival": "",
-            "art": ""
+            "name": "Kup",
+            "class": "Special",
+            "bio": "Kup has been there, done that, got the T-shirt. There's almost nothing this veteran warhorse hasn't seen or experienced - so when it comes to swapping stories his fellow Autobots don't even try to compete. Gruff and grizzled, Kup is forever waxing nostalgic about this battle or that narrow escape. Even if only half of his stories are true, it's still a packed life he's lived. One thing's for sure - he's a born survivor",
+            "passiveAbility": "Grenade Cluster",
+            "abilityCost": 5,
+            "increasePerCast": 2,
+            "maxRarity": 4,
+            "rival": "Dead End",
+            "art": "/src/assets/autobots/kup1.png"
         },
         {
-            "name": "",
-            "class": "",
-            "bio": "",
-            "abilities": [
-                {
-                    "name": "",
-                    "description": ""
-                }
-            ],
-            "passiveAbility": "",
-            "abilityCost": 0,
-            "increasePerCast": 0,
-            "maxRarity": 0,
-            "rival": "",
-            "art": ""
+            "name": "Drift",
+            "class": "Warrior",
+            "bio": "A warrior-born, Drift abandoned his former ruthless ways, exchanged his guns for swords, and became a crusader for justice - albeit his own brand of rough justice. Because of Drift's shady past, his new Autobot allies are slow to trust him and despite his loner attitude. Drift suffers in isolation, but never stops trying to prove his worth, and trustworthiness. His Great Sword draws on his own Spark energy.",
+            "passiveAbility": "Drift has a passive jump in which he can leap over walls to the defence he is targeting.",
+            "abilityCost": 3,
+            "increasePerCast": 2,
+            "maxRarity": 5,
+            "rival": "Barricade",
+            "art": "/src/assets/autobots/drift1.png"
         },
         {
-            "name": "",
-            "class": "",
-            "bio": "",
-            "abilities": [
-                {
-                    "name": "",
-                    "description": ""
-                }
-            ],
+            "name": "Laser Optimus Prime",
+            "class": "Special",
+            "bio": "Following a battle which left him grievously wounded, Optimus Prime's entire structural integrity and circuitry processors were reprogrammed into a sleeker, stronger, combat-ready configuration. With a new giant laser-targeting rocket launcher, ripple-fire missile blaster and armor-piercing discs, Optimus is ready to immobilize Megatron once and for all.",
+            "passiveAbility": "Shoots from a distance",
+            "abilityCost": 10,
+            "increasePerCast": 2,
+            "maxRarity": 5,
+            "rival": "Armada Megatron",
+            "art": "/src/assets/autobots/laserOptimus1.png"
+        },
+        {
+            "name": "Snarl",
+            "class": "Special",
+            "bio": "In army lingo, Snarl is a grunt. Not just because he's infantry, specializing in desert warfare, obediently if grudgingly following the orders of his commanding officer, but because he's a 'bot of few words and fewer opinions, and the most you can get out of him is the odd grunt. A loner by nature, uncommunicative and surly, Snarl only comes to life in the heat of battle, alongside his fellow Dinobots.",
+            "passiveAbility": "For every star level, Snarl has a passive effect dealing a percentage of your damage per second to targets next to you.",
+            "abilityCost": 5,
+            "increasePerCast": 3,
+            "maxRarity": 5,
+            "rival": "Hun-Gurrr",
+            "art": "/src/assets/autobots/snarl1.png"
+        },
+        {
+            "name": "Cheetor",
+            "class": "Special",
+            "bio": "Full of youthful overconfidence, the devil-may-care Cheetor lives life to the full and at high velocity. However, that reckless, full throttle attitude often gets him into deep trouble, sometimes more than he can handle solo (not that he'd ever admit it). It's fair to say that Cheetor's overbearing enthusiasm sometimes grates on the nerves of his Maximal teammates. Nevertheless, they appreciate his speed and agility in battle.",
+            "passiveAbility": "N/A",
+            "abilityCost": 4,
+            "increasePerCast": 1,
+            "maxRarity": 5,
+            "rival": "Blackarachnia",
+            "art": "/src/assets/autobots/cheetor1.png"
+        },
+        {
+            "name": "Springer",
+            "class": "Triple Changer",
+            "bio": "`I've got better things to do today than die,` is Springer's laconic retort to even the most fraught and dangerous situations. His wisecracking, easy-going attitude and unflinching optimism have seen him through plenty of tough times, as has his mighty strength and incredible pogo like leaping abilities. With two alt. modes, he throws himself into battle with abandon - always willing to sacrifice himself for his friends or the mission.",
+            "passiveAbility": "Plasma Gun",
+            "abilityCost": 6,
+            "increasePerCast": 3,
+            "maxRarity": 5,
+            "rival": "Astrotrain",
+            "art": "/src/assets/autobots/springer1.png"
+        },
+        {
+            "name": "Cosmos",
+            "class": "Aerial",
+            "bio": "Fast, quick-witted and intelligent, Cosmos often regrets his ability to achieve escape velocity and enter orbit around a planetary body as it leaves him isolated and lonely, far from his fellow Autobots. However, his observational talents are second to none, and he is able to relay real-time imagery from miles above the planet. To relieve the boredom, Cosmos likes to hover eerily above dwellings, sparking reports of UFO sightings.",
+            "passiveAbility": "N/A",
+            "abilityCost": 7,
+            "increasePerCast": 2,
+            "maxRarity": 4,
+            "rival": "Mindwipe",
+            "art": "/src/assets/autobots/cosmos1.png"
+        },
+        {
+            "name": "Rodimus Prime",
+            "class": "Special",
+            "bio": "Though just as headstrong, impatient, and willful as Hot Rod (his former, younger self), Rodimus Prime suffers far more self-doubt when it comes to his leadership abilities. Once, he wouldn't have hesitated leaping into any situation - no matter how dangerous - but as Rodimus Prime he's learned to consider the bigger picture, which includes the safety of those under his command. Unfortunately, that leads to a lot of second-guessing.",
+            "passiveAbility": "Incendiary Grenade",
+            "abilityCost": 6,
+            "increasePerCast": 2,
+            "maxRarity": 5,
+            "rival": "Motormaster",
+            "art": "/src/assets/autobots/rodimusPrime1.png"
+        },
+        {
+            "name": "Sky Lynx",
+            "class": "Triple Changer",
+            "bio": "When it comes to talking a good fight, Sky Lynx is in a league of his own - and loves nothing more than to brag about his speed, skill and power. But Sky Lynx actually lives up to his own hype. He really is that good at what he does! It's just, his fellow Autobots get very tired of hearing about it. With space shuttle, lynx and bird creature modes (and combinations thereof) Sky Lynx is a formidable (and highly adaptable) warrior.",
+            "passiveAbility": "N/A",
+            "abilityCost": 3,
+            "increasePerCast": 1,
+            "maxRarity": 4,
+            "rival": "Blitzwing",
+            "art": "/src/assets/autobots/skyLynx1.png"
+        },
+        {
+            "name": "Warpath",
+            "class": "Gunner",
+            "bio": "Thick-skinned or not, Warpath may have taken one or two too many ringing impacts in his combat career, and it's left him a little deaf. But his loud, boisterous personality makes him easy company, and no one doubts his incredible sharpshooting prowess. Almost nothing phases Warpath, with one exception - a single scratch to his prized turret can send him into a days-long depression.",
+            "passiveAbility": "N/A",
+            "abilityCost": 5,
+            "increasePerCast": 2,
+            "maxRarity": 5,
+            "rival": "Skullsmasher",
+            "art": "/src/assets/autobots/warpath1.png"
+        },
+        {
+            "name": "Elita-1",
+            "class": "Special",
+            "bio": "As fearless and passionate about life and freedom as Optimus Prime, Elita-1 is likewise a shining example to others, always at the forefront of any battle. It's rumored that Elita and Optimus were once more than just fellow warriors with similar ideals, but whatever the truth, both acknowledge the struggle comes first. A consummate warrior, Elita-1 is the master of multiple weapons and styles of combat, shifting her tactics to whatever best suits the situation.",
+            "passiveAbility": "Shoots from mid-range (not over walls)",
+            "abilityCost": 8,
+            "increasePerCast": 3,
+            "maxRarity": 5,
+            "rival": "Lugnut",
+            "art": "/src/assets/autobots/elita11.png"
+        },
+        {
+            "name": "Tracks",
+            "class": "Aerial",
+            "bio": "When it comes to sheer beauty, no Autobot alive can rival Tracks…at least, that's what Tracks thinks. And he thinks about it all the time. Obsessed with his his own stylish appearance, Tracks' devotion to preserving his luscious paint job and elegant frame prevents him from realizing his full potential on the battlefield. It also annoys the grit out of his fellow Autobots, who hate working with him, despite his unique flight mode and skill with the blinding Black Beam Gun he carries. Not that Tracks cares. After all, whose company could be better than his own?",
+            "passiveAbility": "Black Beam",
+            "abilityCost": 2,
+            "increasePerCast": 5,
+            "maxRarity": 4,
+            "rival": "Cutthroat",
+            "art": "/src/assets/autobots/tracks1.png"
+        },
+        {
+            "name": "Inferno",
+            "class": "Warrior",
+            "bio": "If there's danger, look for Inferno running toward it. Brave is one way to characterize this bot. Reckless is another. But with his naturally tough frame and heat-resistant exterior, Inferno doesn't have much need for a sense of self-preservation anyway. Equally handy with his fire-suppression hardware and his pistol, you'll find him on the front lines of a burning building or a battle, doing whatever needs to be done.",
+            "passiveAbility": "Waterbeam (mid-range not over walls)",
+            "abilityCost": 4,
+            "increasePerCast": 4,
+            "maxRarity": 4,
+            "rival": "Rodimus Unicronus",
+            "art": "/src/assets/autobots/inferno1.png"
+        },
+        {
+            "name": "Tigerhawk",
+            "class": "Aerial",
+            "bio": "Created by fusing the bodies and Sparks of Tigatron and Airazor, Tigerhawk soon went against his creator's nefarious wishes and chose to fight alongside the Maximals and Optimus Primal. Wise and spiritually connected to the Earth, Tigerhawk has the mystical ability to control the weather and stones of the planet itself. If this power weren't enough, he also carries multiple weapons in both his robot and beast modes, including hidden missile launchers and wrist-mounted electricity cannons. Some say the love Tigatron and Airazor had for each other and for the Earth is the source of Tigerhawk's abilities. But whatever the true nature of his gifts, few would deny that Tigerhawk is one of the most powerful beings in the Beast Wars.",
+            "passiveAbility": "N/A",
+            "abilityCost": 7,
+            "increasePerCast": 4,
+            "maxRarity": 4,
+            "rival": "Waspinator",
+            "art": "/src/assets/autobots/tigerhawk1.png"
+        },
+        {
+            "name": "Sentius Magnus",
+            "class": "Special",
+            "bio": "In the ancient past of Cybertron, Sentius Nobilius swore to guard the relics of the 13 Primes using the powerful Sword of Balance. But Nobilius was betrayed and split into two beings - Sentius Magnus, Relic Guardian of Light, and Sentius Malus, Relic Guardian of Darkness. Millennia later, Magnus still takes takes his oath - along with everything else in the universe - very, very seriously. Though Magnus agrees that the ideals of the Autobots justify their use of the relics, he still doesn't like it, and reserves the right to bring his wrath down upon anyone who steps out of line. He deeply believes that power corrupts, and an ounce of prevention is worth a planetload of cure - prevention in the form of his turret mode quad-cannon, energon bow, or still-deadly half of the Sword of Balance.",
+            "passiveAbility": "Shoots with a bow over walls from a long distance",
+            "abilityCost": 5,
+            "increasePerCast": 2,
+            "maxRarity": 4,
+            "rival": "Sentius Malus",
+            "art": "/src/assets/autobots/sentiusMagnus1.png"
+        },
+        {
+            "name": "Slash",
+            "class": "Special",
+            "bio": "Silent, methodical, and tenacious, Slash is the perfect hunter. Her olfactory sensors can detect trace chemicals in the parts per billion. Her audio receptors can hear a servo twitch from a hundred miles away. Her electromagnetic scanners can pick out a transistor radio in a quasar. But most importantly, she never gives up, pursuing her quarry with stubborn unwavering determination until it is at last found. Unfortunately, the nature of Slash's missions often isolates her from her allies, and the thought of 'checking in with HQ' never threads into her processor. As a result, the Dinobots have a terrible habit of forgetting she even exists. But if you want someone or something found, just give her a target and stay out of her way.",
+            "passiveAbility": "N/A",
+            "abilityCost": 7,
+            "increasePerCast": 2,
+            "maxRarity": 4,
+            "rival": "Rippersnapper",
+            "art": "/src/assets/autobots/slash1.png"
+        },
+        {
+            "name": "Sandstorm",
+            "class": "Triple Changer",
+            "bio": "Danger is what Sandstorm lives for and, lucky for him, there's plenty of it to go around. The Cybertronian equivalent of an adrenaline junkie, Sandstorm can't stand the mundane, the daily, the usual. He craves the intensity of life-or-death situations and always manages to find his way to the front lines. While no one can doubt his dedication, some wonder whether Sandstorm's thrill-seeking clouds his sense of right and wrong. If he isn't careful, this Triple-Changer may one day lose his grounding and fall to the darker impulses of his nature.",
+            "passiveAbility": "N/A",
+            "abilityCost": 4,
+            "increasePerCast": 2,
+            "maxRarity": 5,
+            "rival": "Octone",
+            "art": "/src/assets/autobots/sandstorm1.png"
+        },
+        {
+            "name": "Goldfire",
+            "class": "Warrior",
+            "bio": "Beneath Goldfire’s new and improved armored exterior is the same old eager and smart-mouthed ’bot Bumblebee, still just as determined to prove that size doesn’t matter. He’s used to Decepticons - and some Autobots too –underestimating him, but now he’s got the raw power and resistance to injury to butt heads with the big ’bots. Goldfire’s trithyllium-enriched steel alloy skin is resistant to most forms of laser fire, and some artillery. His in-built stinger weapons can fry the circuitry of an enemy in seconds, and this now battle-hardened ’bot is more than willing to use them.",
+            "passiveAbility": "N/A",
+            "abilityCost": 5,
+            "increasePerCast": 2,
+            "maxRarity": 5,
+            "rival": "Ramjet",
+            "art": "/src/assets/autobots/goldfire1.png"
+        },
+        {
+            "name": "Streetwise",
+            "class": "Special",
+            "bio": "Nothing escapes Streetwise's notice, and even the most seemingly insignificant details get filed away in his hyperactive processor for further analysis. Put simply, Streetwise is an environmental sponge. Put him anywhere in the galaxy and he'll know the place like the back of his hand in hours. Right down to the local dialects and slang expressions - which he often adopts. With armaments such as double-barrelled air compressor cannon and sensor-blinding photon pistol, he packs a punch equally in both robot and car mode.",
+            "passiveAbility": "Shoots from mid-range (not over walls)",
+            "abilityCost": 3,
+            "increasePerCast": 4,
+            "maxRarity": 4,
+            "rival": "Sinnertwin",
+            "art": "/src/assets/autobots/streetwise1.png"
+        },
+        {
+            "name": "Cybertron Jetfire",
+            "class": "Special",
+            "bio": "Whatever body he's in, Jetfire's driving faith in the power of science remains the same. In fact, his upgraded and reimagined Cybertronian form reinforces his belief that the path to victory lies through technological advancement and not force of arms. Now with increased resistance to the rigors of high-speed flight and space travel, Jetfire can truly push the boundaries of knowledge and exploration, driving ever further and deeper into the unknown in pursuit of universal truths.",
+            "passiveAbility": "N/A",
+            "abilityCost": 6,
+            "increasePerCast": 2,
+            "maxRarity": 4,
+            "rival": "Cybertron Starscream",
+            "art": "/src/assets/autobots/cybertronJetfire1.png"
+        },
+        {
+            "name": "Impactor",
+            "class": "Special",
+            "bio": "Once leader of the legendary Wreckers, Impactor is now a de-factioned 'bot without allegiance. 'He went too far,' was how the tribunal put it, after Impactor brutally suppressed a scavenger attack on the colony world of Velocitron. But Impactor was unapologetic, accusing his accusers of not being willing to do what needs to be done. He left before the verdict, and now plies the trade of a mercenary - fighting wars without boundaries. From the tank cannon on his shoulder to the signature harpoon weapon that replaced his right hand (bitten off by a Sharkticon), Impactor is a one-bot wrecking crew in his own right.",
+            "passiveAbility": "N/A",
+            "abilityCost": 5,
+            "increasePerCast": 2,
+            "maxRarity": 5,
+            "rival": "Impactor",
+            "art": "/src/assets/autobots/impactor1.png"
+        },
+        {
+            "name": "Blades",
+            "class": "Aerial",
+            "bio": "Despite his aerial proficiency and high-altitude targeting dexterity, Blades is a 'street-level' kind of 'bot, preferring to look his foe in the optic and get down and dirty like the streetfighter he is. He considers long-range attacks unsporting and cowardly, and would rather detach his rotor blades and slash through the enemy ground forces. But most times Blades concedes he was built for the skies, and his twin rocket launchers and dazzling photon bursts make him a highly effective aerial asset. Something his fellow Protectobots deeply appreciate.",
+            "passiveAbility": "N/A",
+            "abilityCost": 7,
+            "increasePerCast": 2,
+            "maxRarity": 5,
+            "rival": "Dirge",
+            "art": "/src/assets/autobots/blades1.png"
+        },
+        {
+            "name": "Rook",
+            "class": "Warrior",
+            "bio": "One of the most instinctive strategists in the Autobot Earth forces, Rook's analytical/tactical mind belies his tendency to sometimes break ranks and charge headlong into the oncoming enemy forces. Not that Rook has much to fear from incoming fire. His durabyllium armor plating can withstand punishing blasts and hold up under crushing weight, and normally at the forefront of his mind is pulling some injured party from harm's way, a feat he accomplishes by switching to his equally armored vehicle mode and utilizing his powerful hydraulic claw. It's all in a day's work for this fearless and selfless Protectobot.",
+            "passiveAbility": "Flamethrower",
+            "abilityCost": 5,
+            "increasePerCast": 3,
+            "maxRarity": 5,
+            "rival": "Blot",
+            "art": "/src/assets/autobots/rook1.png"
+        },
+        {
+            "name": "Rhinox",
+            "class": "Special",
+            "bio": "Solid, dependable, Rhinox is proof perfect that still waters run deep. He's strong, stalwart and decisive in a crisis, but for all his power and dependability it's his less apparent tech-savvy qualities and brilliant mind - over brute force - that win the day in the long run. With an intellect that borders on the mystical sometimes, thinking outside the box is second nature. That's not to say though that Rhinox's twin Chainguns of Doom and runaway headlong charges at enemy lines don't make him indispensable either, but his analytical and tactical brain combined with a strong moral compass are his standout qualities.",
+            "passiveAbility": "Chaingun",
+            "abilityCost": 5,
+            "increasePerCast": 2,
+            "maxRarity": 5,
+            "rival": "Tarantulas",
+            "art": "/src/assets/autobots/rhinox1.png"
+        },
+        {
+            "name": "Punch",
+            "class": "Special",
+            "bio": "Punch walks a tightrope - balancing his own somewhat paranoid persona with that of his hair-trigger alter-ego, Counterpunch. Though outwardly he seems calm and in control, Punch is a tightly wound ball of insecurities, doubts and fears - certain that any moment he'll be exposed as a double-agent. Punch minutely measures his words, judging when to speak (if at all) and how much to say. Nevertheless, there's a stoic and grim determination about him to see the job through, no matter what the personal cost to Punch's immortal Spark.",
+            "passiveAbility": "N/A",
+            "abilityCost": 5,
+            "increasePerCast": 3,
+            "maxRarity": 4,
+            "rival": "Counterpunch",
+            "art": "/src/assets/autobots/punch1.png"
+        },
+        {
+            "name": "Hound V.A.M.P.",
+            "class": "Special",
+            "bio": "Though he now shares his allegiance between the Autobots and the elite fighting unit G.I. Joe, Hound is the same old fearless and loyal scout and trooper. Nothing but nothing escapes his notice, and he faithfully and meticulously stores every sight and sound. His V.A.M.P. (Vehicle: Attack/Multi-Purpose) jeep mode is not unlike his original configuration, but the human touch and design innovation in his new form is hugely appreciated by a 'bot who, deep down, would love nothing more than to be human.",
+            "passiveAbility": "Shoots foes at distance (not over wall)",
+            "abilityCost": 5,
+            "increasePerCast": 3,
+            "maxRarity": 4,
+            "rival": "Soundwave H.I.S.S.",
+            "art": "/src/assets/autobots/houndVamp1.png"
+        },
+        {
+            "name": "Jetfire Skystriker",
+            "class": "Aerial",
+            "bio": "Jetfire considers his body a testament to the science he studies so intently and treats his chassis as a malleable quantity that must be kept up to date, incorporating the latest cutting-edge tech. Whenever updates/upgrades to his jet form present themselves, Jetfire is first in the queue. So, his new Skystriker alt. mode was a no-brainer, especially as it comes with a detachable rocket propulsion module and orbital space-flight capabilities. As well as numerous air-to-air weapon options, including heat-seeking Stinger missiles.",
+            "passiveAbility": "N/A",
+            "abilityCost": 5,
+            "increasePerCast": 2,
+            "maxRarity": 4,
+            "rival": "Skywarp Nightraven",
+            "art": "/src/assets/autobots/jetfireSkystriker1.png"
+        },
+        {
+            "name": "Red Alert",
+            "class": "Special",
+            "bio": "Red Alert is the best security director ever, and it's largely down to the sheer levels of paranoia that are part and parcel of this hair-trigger Autobot's make-up. Nothing, not even the faintest whiff of exhaust residue or whisper of ignition circuitry, escapes his attention, and everything - and everyone - is a potential threat. Dedicated, driven, and very fast, Red Alert nevertheless makes others edgy around him, concerned that what he sees as trenchant and necessary is just plain rash.",
+            "passiveAbility": "N/A",
+            "abilityCost": 4,
+            "increasePerCast": 3,
+            "maxRarity": 4,
+            "rival": "Runamuck",
+            "art": "/src/assets/autobots/redAlert1.png"
+        },
+        {
+            "name": "Strafe",
+            "class": "Aerial",
+            "bio": "Strafe is a liability on the battlefield, prone to react to any bit of motion or potential danger with a hail of firepower. His incredible reflexes are both boon and bane, as his hair-trigger responses and often inaccurate targeting can do harm to friend and foe in equal measure. He's a nervous wreck and suffers from what he calls PDSD (post-Decepticon shaking disorder), but sometimes his sheer lack of restraint can turn the tide of an otherwise unwinnable battle. As a Technobot, Strafe possesses above average intelligence and combines to form Computron.",
+            "passiveAbility": "N/A",
+            "abilityCost": 5,
+            "increasePerCast": 3,
+            "maxRarity": 4,
+            "rival": "Thrust",
+            "art": "/src/assets/autobots/strafe1.png"
+        },
+        {
+            "name": "Dinobot",
+            "class": "Warrior",
+            "bio": "Dinobot lives to die gloriously in battle! Skilled in many forms of Cybertronian martial arts, his warrior's code of honor is sharply defined, and he treats his opponents with the greatest of respect - if they are judged worthy. A Predacon at heart, Dinobot defected to the Maximals when he disagreed with Megatron's tactics, his contradictory goals and values often putting him at odds with his newfound allies. He wields a spinning blade weapon and an electron-sword, and can also emit concentrated laser beams from his optics.",
+            "passiveAbility": "N/A",
+            "abilityCost": 5,
+            "increasePerCast": 3,
+            "maxRarity": 5,
+            "rival": "Dinobot II",
+            "art": "/src/assets/autobots/dinobot1.png"
+        },
+        {
+            "name": "Nosecone",
+            "class": "Warrior",
+            "bio": "Methodical to the point of painstaking, Nosecone can seem slow or even lazy to outsiders, but his fellow Technobots know he's just a perfectionist, carefully evaluating every risk before acting, while always getting the job done. Unfazed by the chaos of the battlefield, Nosecone is a calming presence, but that doesn't stop him from shredding fortifications with his durabyllium-steel drill or just tunneling under them.",
+            "passiveAbility": "5* ONLY: Additional range, and a bigger absorption shield (from 60% to 80%).",
+            "abilityCost": 3,
+            "increasePerCast": 2,
+            "maxRarity": 5,
+            "rival": "Drillhorn",
+            "art": "/src/assets/autobots/noseCone1.png"
+        },
+        {
+            "name": "Brainstorm",
+            "class": "Aerial",
+            "bio": "Brainstorm possesses one of the most brilliant and questing scientific minds on Cybertron, and is literally brimming over with new and innovative ideas, to the point where he's often devising three different things at once, and sometimes neglects to finish what he's started. Though he fervently wishes his inventions and advances didn't have to have a military application, he understands the need to defeat the Decepticons at all costs. He's armed with two high-powered photon pulse cannons that turn light into explosive energy and transforms into a Cybertronian jet with a maximum speed of 5200 mph. He throws meta-fictional grenades. And he often carries a time-travel briefcase.",
             "passiveAbility": "",
-            "abilityCost": 0,
-            "increasePerCast": 0,
-            "maxRarity": 0,
-            "rival": "",
-            "art": ""
+            "abilityCost": 6,
+            "increasePerCast": 3,
+            "maxRarity": 5,
+            "rival": "Guyhawk",
+            "art": "/src/assets/autobots/brainstorm1.png"
+        },
+        {
+            "name": "Sixgun",
+            "class": "Gunner",
+            "bio": "A walking, talking mass of armaments and firepower, Sixgun is as bellicose as his name suggests, with a personality to match. Gung-ho doesn't even come close to describing the sheer gusto with which he launches himself into any combat situation. But though he can be brash, belligerent and bombastic, he's as loyal and committed as they come, leading from the front and soaking up the lion's share of incoming enemy fire. Fellow Autobots sometimes misread his gruff, terse manner as stand-offish and unfriendly, but the fact is Sixgun saves his real self-expression for the battlefield.",
+            "passiveAbility": "Rockets / Null Ray Multi-Laser",
+            "abilityCost": 8,
+            "increasePerCast": 2,
+            "maxRarity": 5,
+            "rival": "Triggerhappy",
+            "art": "/src/assets/autobots/sixgun1.png"
+        },
+        {
+            "name": "Chromia",
+            "class": "Gunner",
+            "bio": "Bluntly honest and not one to mince words, Chromia can be difficult to get along with - and doesn't suffer fools gladly. But then friendships are something she doesn't encourage, as to her way of thinking they get in the way of her duties, which are of paramount importance. Her rough edges and gruff manner appeal to other, like-minded bodyguards and security officers, and there's no doubting she can be ruthlessly efficient when it comes to protecting those under her vigilant eye. She's also a dab hand at sabotage and under-the-radar operations in enemy territory.",
+            "passiveAbility": "",
+            "abilityCost": 3,
+            "increasePerCast": 4,
+            "maxRarity": 4,
+            "rival": "Fellbat",
+            "art": "/src/assets/autobots/chromia1.png"
+        },
+        {
+            "name": "Lightspeed",
+            "class": "Gunner",
+            "bio": "Everything happens too slowly for Lightspeed's liking. The hyper-speed of his processor and the rate he interprets data and formulates strategies create the illusion of a world around him that seems turgid, lifeless and constraining, and more than anything he itches to be free of that planet's gravity and soaring through the boundless reaches of outer space. Nevertheless, Lightspeed identifies this yearning as frivolous and counter-productive, especially at a time of war, and instead channels all his kinetic thought processes into trenchant action.",
+            "passiveAbility": "Shoots from a distance",
+            "abilityCost": 3,
+            "increasePerCast": 2,
+            "maxRarity": 5,
+            "rival": "Ironbison",
+            "art": "/src/assets/autobots/lightspeed1.png"
+        },
+        {
+            "name": "Doubledealer",
+            "class": "Triple Changer",
+            "bio": "Though not devoid of empathy, everything for Doubledealer is a calculation. Largely, what's in it for me? His loyalty is earned… but only with cold, hard currency. Doubledealer's mercenary credentials mean he's equally happy working for the Decepticons as he is the for Autobots. In fact, the absence of noble causes and selfless motivations eases his conscience. There's no ambiguity in the arrangement. He's in and out clean, as he likes to see it. As a quote-unquote soldier of fortune, Doubledealer offers his considerable services and a large dash of moral flexibility to the highest bidder. Does he lean more to one faction than the other? Perhaps, but the transactional nature of his actions excuses any transgression… in his optics, anyway. So when the Decepticons call, he'll come running, but maybe he'll be more prone to turn the deal into a double-deal if it ultimately scores a win for the Autobots. As a Triple-Changer, with his bird of prey beast mode and missile truck vehicular mode, he likes to think he's worth the price-tag. Naturally, this attitude makes it very hard for the Autobots to trust Doubledealer, but they know once he's taken on a job he always sees it through… to the bitter end.",
+            "passiveAbility": "N/A",
+            "abilityCost": "3/3",
+            "increasePerCast": "2/1",
+            "maxRarity": 4,
+            "rival": "Doubledealer",
+            "art": "/src/assets/autobots/doubledealer1.png"
+        },
+        {
+            "name": "Trailbreaker",
+            "class": "Gunner",
+            "bio": "Trailbreaker is every inch the redoubtable Autobot warrior but suffers from severe self-doubt and a general low opinion of his own abilities. He's highly conscious of the fact that not only is he one of the slowest Autobots in his bulky vehicle mode, he's also one of the least fuel-efficient. He covers up his insecurities with a jaunty and jokey demeanor that can lighten the darkest mood (or hour). The fact is, other Autobots respect Trailbreaker's good humor, bravery and would kill (not literally) for his personal forcefield and gripping Magnawheels.",
+            "passiveAbility": "N/A",
+            "abilityCost": 3,
+            "increasePerCast": 1,
+            "maxRarity": 4,
+            "rival": "Exhaust",
+            "art": "/src/assets/autobots/trailbreaker1.png"
+        },
+        {
+            "name": "Scattershot",
+            "class": "Special",
+            "bio": "Scattershot comes across as a brusque and boorish blunt instrument, more interested in battlefields and brawling than wrestling with scientific and technological problems in the lab. Like his fellow Technobots, he possesses a much higher-than-average processor speed and a questing mind, but hides it behind a loud, obnoxious and crass exterior. That said, his bravery and proficiency on the battlefield isn't bluff and bluster, he really lives up to his loud and proud warrior status, bristling with weaponry including an electron pulse cannon.",
+            "passiveAbility": "Shoots Acid Pellets damaging targets over time in an area.",
+            "abilityCost": 5,
+            "increasePerCast": 3,
+            "maxRarity": 5,
+            "rival": "Leozack",
+            "art": "/src/assets/autobots/scattershot1.png"
+        },
+        {
+            "name": "Hoist",
+            "class": "Special",
+            "bio": "Hoist is one of the best construction engineers on Cybertron, but it isn't his technical skill that most other 'bots remark on, rather it's his positivity and strength of character that shines out, inspiring everyone around him to be better, try harder. It's hard to quantify the effect Hoist has on his fellow Autobots when fighting alongside them, especially as he himself has serious misgivings about his slowness in vehicle mode and poor fuel efficiency. But his cheerful, upbeat nature can generally dispel the gloom of even the darkest hour - and it doesn't hurt that he often comes bearing gifts of much-needed spare parts.",
+            "passiveAbility": "N/A",
+            "abilityCost": 5,
+            "increasePerCast": 3,
+            "maxRarity": 5,
+            "rival": "Crankcase",
+            "art": "/src/assets/autobots/hoist1.png"
+        },
+        {
+            "name": "Grapple",
+            "class": "Special",
+            "bio": "Grapple would rather be designing and building great works of art than machines of war, but understands the necessities of life as an Autobot in a perpetual state of conflict. Nevertheless, he still takes immense pride in his constructions, never sacrificing aesthetics for practicalities. The downside is he gets very attached to each and every end product, and is miserable beyond measure when they are destroyed in the course of a battle. Immensely strong in both modes, his crane arm can lift and maneuver loads of 35 tons or more.",
+            "passiveAbility": "N/A",
+            "abilityCost": 6,
+            "increasePerCast": 3,
+            "maxRarity": 5,
+            "rival": "Dirtbag",
+            "art": "/src/assets/autobots/grapple1.png"
+        },
+        {
+            "name": "Snapdragon",
+            "class": "Triple Changer",
+            "bio": "Snapdragon has been an outsider from day one, never really comfortable with factions and causes, and though his monstrous appearance and 'Horrorcon' tag (given him rather than adopted) marked him as material for the Decepticon forces, he preferred to feather his own nest as a mercenary-for-hire. Vain and highly focused on his own well-being/structural integrity, Snapdragon decided that if he was going to risk his precious hide it was going to be for reward and personal profit rather than any perceived 'field of combat' glory. A triple-changer, Snapdragon is an adversary to be reckoned with in any of his three forms. Snapdragon cut ties with the Decepticons as soon as he could safely do so, namely by proving his worth to Megatron as an outside and independent contractor first and foremost. Though prone to bouts of animalistic fury and carousels of destruction, what really motivates Snapdragon is the bottom line: what's in it for me. If the price is right, he'll fight alongside Autobots, Decepticons, Quintessons or anyone for that matter (often at the same time). It's a testament to his skill and sheer combat prowess (as well as his status as a triple-changer) that Megatron tolerates Snapdragon's vain and self-interested nature.",
+            "passiveAbility": "N/A",
+            "abilityCost": 4,
+            "increasePerCast": 2,
+            "maxRarity": 4,
+            "rival": "Snapdragon",
+            "art": "/src/assets/autobots/snapdragon1.png"
+        },
+        {
+            "name": "Beast Wars Prowl",
+            "class": "Special",
+            "bio": "Prowl cannot abide mess. It offends his twin tenets of sound reason and cool logic. In his book, mistakes happen when rash decisions are undertaken, and all deciding factors must be carefully assessed and compartmentalized before a course of action is decided upon. This degree of dispassion tends to distance Prowl from those under his command and can manifest as a degree of hesitation that enemies try to exploit. Once roused, though, this Maximal Elder is a roaring, rending force of nature – especially in beast mode.",
+            "passiveAbility": "N/A",
+            "abilityCost": 4,
+            "increasePerCast": 2,
+            "maxRarity": 4,
+            "rival": "Beast Wars Ram Horn",
+            "art": "/src/assets/autobots/bwProwl1.png"
+        },
+        {
+            "name": "Beast Wars Silverbolt",
+            "class": "Aerial",
+            "bio": "Silverbolt is among the first of the new generation of Cybertronians and possesses great wisdom and a deep reservoir of good intentions, his mantra to lead by example. If history has taught him anything it's that calm, considered action is all, and that rashness and the heat of the moment are the true enemies of judgment. As a Maximal Elder he epitomizes many of the loftiest ideals of the Maximals and has the courage of his convictions. In flight mode, Silverbolt is amazingly fast, and his aerodynamic form is highly maneuverable and reactive. His twin ion blades make him a redoubtable opponent in either mode.",
+            "passiveAbility": "N/A",
+            "abilityCost": 4,
+            "increasePerCast": 4,
+            "maxRarity": 4,
+            "rival": "Cicadacon",
+            "art": "/src/assets/autobots/bwSilverbolt1.png"
+        },
+        {
+            "name": "Optimal Optimus",
+            "class": "Special",
+            "bio": "During a Transwarp pulse/detonation, Optimus Primal was remade as Optimal Optimus, the mutated super-enhanced vessel for a mystical essence wielded by a lineage of Primes stretching back into the distant past of Cybertron. Bigger, stronger, with a flight mode, Optimal Optimus epitomizes the fighting spirit and thirst for justice of the legendary Optimus Prime and his predecessors, his vast stature and many defensive features, including arm-mounted blast shields, making him unrivaled in terms of sheer power among his fellow Maximals - up to and including the venerable Maximal Elders.",
+            "passiveAbility": "Set enemies on fire / Freezes enemy bots",
+            "abilityCost": 7,
+            "increasePerCast": 2,
+            "maxRarity": 5,
+            "rival": "Transmetal 2 Megatron",
+            "art": "/src/assets/autobots/optimalOptimus1.png"
+        },
+        {
+            "name": "Beast Wars Ironhide",
+            "class": "Warrior",
+            "bio": "Ironhide hails from the Great War era, and is still as indomitable and courageous (and taciturn) as ever. But where, once upon a time, he would meet every problem head on, often literally, these days several lifetimes' worth of experiences and battles have honed a calmer, wiser Ironhide, who - as one of the Maximal Elders - garners much respect from his peers as a shaper of progress through peace. In pachyderm beast form, he's a thundering force of nature.",
+            "passiveAbility": "N/A",
+            "abilityCost": 3,
+            "increasePerCast": 4,
+            "maxRarity": 4,
+            "rival": "Sea Clamp",
+            "art": "/src/assets/autobots/bwIronhide1.png"
         }
     ]
 }

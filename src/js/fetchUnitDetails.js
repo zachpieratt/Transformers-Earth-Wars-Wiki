@@ -44,6 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <div class="unit-details">
                 <button id="closePopup">&#x25c0; Back</button>
                 <h2 class="popupUnitName">${unit.name}</h2>
+                <img src="${unit.art}" alt="${unit.name} Art"/>
                 <div id="class">
                     <div><strong>Class:</strong> ${unit.class}</div>
                     <img src="/src/assets/classes/${unit.class}.png" class="classIcon">
@@ -56,7 +57,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 <p>${unit.bio || "No description available."}</p>
                 <div><strong>Passive Ability:</strong> ${unit.passiveAbility}</div>
                 <div id="abilityDetails"></div>
-                <img src="${unit.art}" alt="${unit.name} Art"/>
+                <div class="abilityCost">
+                    <div><strong>Ability Cost:</strong> ${unit.abilityCost}</div>
+                    <div><strong>Cost Per Ability Use:</strong> ${unit.increasePerCast}</div>
+                </div>
+                
+                
             </div>
         `;
         unitContainer.style.display = "block";
@@ -106,7 +112,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 const unitIndex = this.getAttribute("data-index");
                 const unit = orderedData[unitIndex];
                 showUnitDetails(unit);
-                FetchAbilities(unit.abilities[0]?.name || null, unit.abilities[1]?.name || null);
+                FetchAbilities(unit.name);
                 event.stopPropagation();
             });
         });

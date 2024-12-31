@@ -1,21 +1,163 @@
 {
     "abilities": [
         {
+            "unit": "Blaster",
             "name": "Deploy Minions",
             "icon": "/src/assets/abilityIcons/deployMinions.jpg",
-            "level11UpgradeBonus": "Using the power of music, your minions' health and damage are 20% higher.",
-            "level11Desc": "Release four minions into battle that have 30% of your Health and 63% of your Damage. Using the power of music, your minions receive an extra 20% health and damage increase."
+            "desc": "Release 4 minions into battle that have 30% of your Health and a percentage of your Damage.",
+            "level11UpgradeBonus": "Using the power of music, your minions' health and damage are 20% higher."
         },
         {
+            "unit": "Broadside",
             "name": "Repair Drones",
             "icon": "/src/assets/abilityIcons/repairDrones.PNG",
-            "level11Desc": "",
+            "desc": "Deploy 5 untargetable Repair Drones to heal for HPS each. When you deploy more drones or you are destroyed, your Repair Drones explode, doing healing each. These values increase with your Damage.",
+            "level11UpgradeBonus": "N/A"
+        },
+        {
+            "unit": "Broadside",
+            "name": "Assault Drones",
+            "icon": "/src/assets/abilityIcons/assaultDrones.PNG",
+            "desc": "Deploy 5 untargetable Assault Drones that attack for DPS each. When you deploy more drones or you are destroyed, your Assault Drones explode, doing damage each. These values increase with your Damage.",
+            "level11UpgradeBonus": "N/A"
+        },
+        {
+            "unit": "Star Saber",
+            "name": "Quick Strike",
+            "icon": "",
+            "desc": "Rush in, spreading electrical fire in a large radius. Targets are disabled for 6 seconds and take damage.",
+            "level11UpgradeBonus": "N/A"
+        },
+        {
+            "unit": "Afterbreaker",
+            "name": "Sabotage",
+            "icon": "",
+            "desc": "Create a ring of fire that deals damage and prevents enemies from receiving shielding, and shoot bolts of electrical fire up to 8 times disabling and causing damage.",
+            "level11UpgradeBonus": "N/A"
+        },
+        {
+            "unit": "Optimus Prime",
+            "name": "Inspiring Charge",
+            "icon": "",
+            "desc": "Rally Autobots to engage the target. Then charge in damaging walls along the way.",
             "level11UpgradeBonus": ""
         },
         {
-            "name": "Assault Drones",
-            "icon": "/src/assets/abilityIcons/assaultDrones.PNG",
-            "level11Desc": "",
+            "unit": "Prowl",
+            "name": "Rocket Barrage",
+            "icon": "",
+            "desc": "Shoots 4 rockets from long range delivering damage over the area around the target.",
+            "level11UpgradeBonus": ""
+        },
+        {
+            "unit": "Ratchet",
+            "name": "Healing Grenade",
+            "icon": "",
+            "desc": "Launch a grenade that heals all Autobots in a large area over 5 seconds.",
+            "level11UpgradeBonus": ""
+        },
+        {
+            "unit": "Bumblebee",
+            "name": "EMP Bomb",
+            "icon": "",
+            "desc": "Throw an EMP Bomb that explodes stunning nearby targets for several seconds and deals 33% attack damage every second.",
+            "level11UpgradeBonus": ""
+        },
+        {
+            "unit": "Cliffjumper",
+            "name": "Glass Gas Rockets",
+            "icon": "",
+            "desc": "Shoots out 4 rockets that deal damage and engulf an area in Glass Gas, making all targets take an extra 40% damage for several seconds.",
+            "level11UpgradeBonus": ""
+        },
+        {
+            "unit": "Grimlock",
+            "name": "Sword Rush",
+            "icon": "",
+            "desc": "Rush into combat smashing walls along the way. Deals damage to the final target.",
+            "level11UpgradeBonus": ""
+        },
+        {
+            "unit": "Ironhide",
+            "name": "Electromagnetic Charge",
+            "icon": "",
+            "desc": "Put a shield that blocks 80% damage for several seconds and rush into combat damaging walls and leaving an Electromagnetic Pulse behind. Affected targets are disabled for several seconds. Attracts defenses!",
+            "level11UpgradeBonus": ""
+        },
+        {
+            "unit": "Jetfire",
+            "name": "Air Strike",
+            "icon": "",
+            "desc": "Fire 4 powerful rockets at a target building.",
+            "level11UpgradeBonus": ""
+        },
+        {
+            "unit": "Mirage",
+            "name": "EMP Rocket Barrage",
+            "icon": "",
+            "desc": "Shoots out 6 rockets that disable enemy defenses and deal damage in a small area.",
+            "level11UpgradeBonus": ""
+        },
+        {
+            "unit": "Silverbolt",
+            "name": "EMP Bomb",
+            "icon": "",
+            "desc": "Throw an EMP Bomb that explodes stunning nearby targets and deals attack damage.",
+            "level11UpgradeBonus": ""
+        },
+        {
+            "unit": "Skydive",
+            "name": "Acid Bombs",
+            "icon": "",
+            "desc": "Drop 6 acid bombs on a target building each dealing large damage.",
+            "level11UpgradeBonus": ""
+        },
+        {
+            "unit": "Sunstreaker",
+            "name": "Incendiary Barrage",
+            "icon": "",
+            "desc": "Shoots 6 rockets that engulf a large area in flames dealing damage over time.",
+            "level11UpgradeBonus": ""
+        },
+        {
+            "unit": "Wheeljack",
+            "name": "Combat Stimulants",
+            "icon": "",
+            "desc": "Amplify movement and attack speeds of nearby Autobots for 8 seconds. (10 secs for the 5 star version)",
+            "level11UpgradeBonus": ""
+        },
+        {
+            "unit": "Air Raid",
+            "name": "Fusion Bomb",
+            "icon": "",
+            "desc": "Drop a fusion bomb on the target. If the target is destroyed within 20 seconds, the bomb explodes dealing massive damage to adjacent targets.",
+            "level11UpgradeBonus": ""
+        },
+        {
+            "unit": "Powerglide",
+            "name": "Bombing Run",
+            "icon": "",
+            "desc": "Drops 12 bombs in a line across the target dealing damage.",
+            "level11UpgradeBonus": ""
+        },
+        {
+            "unit": "Jazz",
+            "name": "Orbital Strike",
+            "icon": "",
+            "desc": "Call down a powerful Orbital Bombardment. Heavily damages every target in a large area.",
+            "level11UpgradeBonus": ""
+        },
+        {
+            "unit": "Alpha Bravo",
+            "name": "Rocket Barrage",
+            "icon": "",
+            "desc": "Shoots 4 rockets from long range delivering damage over the area around the target.",
+            "level11UpgradeBonus": ""
+        },
+        {
+            "name": "",
+            "icon": "",
+            "desc": "",
             "level11UpgradeBonus": ""
         }
     ]

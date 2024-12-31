@@ -1,7 +1,7 @@
-const FetchAbilities = (ability1, ability2) => {
+const FetchAbilities = (unitName) => {
 
 
-    let abilities = [ability1, ability2]
+    let unit = [unitName]
     fetch('/src/json/abilities.json')
         .then((res) => {
             if (!res.ok) {
@@ -11,7 +11,7 @@ const FetchAbilities = (ability1, ability2) => {
         })
         .then((data) => {
             const abilities = data.abilities;
-            const output = abilities.filter(a => (a.name == ability1) || (a.name == ability2));
+            const output = abilities.filter(a => (a.unit == unit));
             generateAbilityDetails(output);
         })
         .catch((error) => {
@@ -22,10 +22,23 @@ const FetchAbilities = (ability1, ability2) => {
         const abilityElement = document.getElementById("abilityDetails");
         let ab1 = output[0];
         let ab2 = output[1] ? output[1] : {};
+        console.log(ab1);
+        console.log(ab2);
         abilityElement.innerHTML = `
             <h1>Ability Details</h1>
-            <div><strong>Ability 1:</strong> ${ab1.name}</div>
+            <div class="abilityName"><strong>Ability 1:</strong> ${ab1.name}</div>
             <img class="abilityIcon" src=${ab1.icon}>
+            <div class="abilitydesc">${ab1.desc}</div>
+            <br>
+            <div class="level11"><strong>Level 11 Bonus:</strong> ${ab1.level11UpgradeBonus}</div>
+            <br><br>
+            <div class="abilityName">${ab2.name ? `<strong>Ability 2:</strong> ${ab2.name}` : ""}</div>
+            <img class="abilityIcon" src=${ab2.icon || ""}>
+            <div class="abilitydesc">${ab2.desc || ""}</div>
+            <br>
+            <div class="level11">${ab2.name ? `<strong>Level 11 Bonus:</strong> ${ab2.level11UpgradeBonus}` : ""}</div>
+            <br><br>
+            
         `;
     }
 

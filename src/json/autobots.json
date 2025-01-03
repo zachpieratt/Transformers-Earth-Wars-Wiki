@@ -194,7 +194,7 @@
             "passiveAbility": "N/A",
             "abilityCost": 3,
             "increasePerCast": 3,
-            "maxRarity": 4,
+            "maxRarity": 5,
             "rival": "Slipstream",
             "art": "/src/assets/autobots/airRaid1.png"
         },
@@ -1000,6 +1000,61 @@
             "maxRarity": 4,
             "rival": "Sea Clamp",
             "art": "/src/assets/autobots/bwIronhide1.png"
+        },
+        {
+            "name": "Vector Prime",
+            "class": "Special",
+            "bio": "Vector Prime is the guardian of time and space, an impossibly ancient being and one of the original 13 Primes. This enigmatic and sometimes obtuse being exists outside of the normal flow of space and time, observing and recording multiple timelines and realities, sometimes 'tinkering' and streamlining when rogue chronal elements bubble to the surface. Unfortunately, this well-intentioned tampering creates loopholes that other, less morally-led, individuals can exploit. With his Cyber Key he can unlock any era.",
+            "passiveAbility": "N/A",
+            "abilityCost": 5,
+            "increasePerCast": 3,
+            "maxRarity": 5,
+            "rival": "Nova Prime",
+            "art": "/src/assets/autobots/vectorPrime1.png"
+        },
+        {
+            "name": "Wing Saber",
+            "class": "Aerial",
+            "bio": "Wing Saber leaves nothing to chance. His meticulous, in-depth micro-analysis of any situation, in detail - in an instant - makes him invaluable as a strategic security officer. He's also one of the most cool, calm and collected 'bots out there, so while others might be losing their heads in the heat of the moment, Wing Saber never does. In a pinch, he's who you need to come up with a strategy, when to others, all looks lost. Thinking outside of the box is what he does best, instinctively, and in stealth-jet mode, he can implement that last-ditch plan in moments.",
+            "passiveAbility": "N/A",
+            "abilityCost": 3,
+            "increasePerCast": 4,
+            "maxRarity": 5,
+            "rival": "Dreadwing",
+            "art": "/src/assets/autobots/wingSaber1.png"
+        },
+        {
+            "name": "Alpha Trion",
+            "class": "Special",
+            "bio": "Alpha Trion is among the eldest - if not the eldest - of the venerable Autobot Elders, a High Councillor of great wisdom, compassion and knowledge. He has been a mentor to Primes, guide and guru to generations of Cybertronian thinkers, academics and philosophers. With the vast cosmic data cache of Vector Sigma at his disposal, Alpha Trion has a finger on the pulse of the universe, and Cybertron's place within it. When he speaks, leaders listen and learn. Rarely given to resort to combat, but if needed he's ready to utilise his arsenal which includes a grenade capable of stealing lifeforce. Nevertheless, he wields absolute authority in any crisis, he calmest of heads on the broadest of shoulders.",
+            "passiveAbility": "Fires a grenade every few seconds which heals for 20% of the damage done.",
+            "abilityCost": 4,
+            "increasePerCast": 3,
+            "maxRarity": 5,
+            "rival": "Tarn",
+            "art": "/src/assets/autobots/alphaTrion1.png"
+        },
+        {
+            "name": "Ariel",
+            "class": "Warrior",
+            "bio": "Ariel is the last of an ancient order of Cybertronian stoics, who espoused conformity and an almost hive-mind approach to decision-making. When the Great War came, many (including Elita-1) abandoned what they now saw as a redundant phillosophy in the face of the Decepticon threat and took up arms, but Ariel clung to her belief that lasting peace would come through burying individuality in favour of a unified and non-agenda-led society. She is now one of the preeminent Autobot High Councillors.",
+            "passiveAbility": "N/A",
+            "abilityCost": 4,
+            "increasePerCast": 0,
+            "maxRarity": 5,
+            "rival": "Scylla",
+            "art": "/src/assets/autobots/ariel1.png"
+        },
+        {
+            "name": "Beachcomber",
+            "class": "Special",
+            "bio": "Beachcomber often cuts a solitary figure, preferring to roam alone into vast expanses of desert wilderness or along rugged, inaccessible coastal shores. Cool-headed, low-key, he's exactly who you need in a crisis, and - despite his urge to wander - never shirks his responsibility to the Autobot cause. And when it comes to gathering resources his vasy array of sensor equipment is almost without compare. Though not one of the strongest Autobots he has unusually high agility, making him an elusive target.",
+            "passiveAbility": "Every 10 seconds, point forward and grant allies within a large area damage absorption that sometimes will shoot a water bullet that reduces attack and defence of the target.",
+            "abilityCost": 4,
+            "increasePerCast": 3,
+            "maxRarity": 5,
+            "rival": "Deluge",
+            "art": "/src/assets/autobots/beachcomber1.png"
         }
     ]
 }
